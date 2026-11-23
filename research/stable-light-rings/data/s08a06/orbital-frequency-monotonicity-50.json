@@ -1,0 +1,38 @@
+{
+  "exact_checks": 6,
+  "certificate": {
+    "status": "exact_star_orbital_frequency_strictly_decreasing",
+    "digits": 50,
+    "input_sha256": {
+      "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+      "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+      "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+      "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+    },
+    "background_error": "7.2e-9",
+    "radial_interval": [
+      "781/50",
+      "16521/1000"
+    ],
+    "source_energy_fraction_upper": ".999",
+    "partition_points": 2179,
+    "refinements": 1864,
+    "curvature_zero_candidate_cells_count": 316,
+    "curvature_zero_candidate_ranges": [
+      [
+        16.203125,
+        16.312847222222224
+      ]
+    ],
+    "normalized_Schaaf_test_lower_bound": 2.884751472576319e-07,
+    "normalized_negative_Uprime_Uthird_lower_bound_at_zero_cells": 2.3063310909372294e-06,
+    "log_optical_slope_lower_on_nonconvex_cells": 2.1742089382949285e-08,
+    "metric_factor_lower_bound": 0.5141878786494897,
+    "scaled_endpoint_energy_margins": [
+      2.3829091840203386e-07,
+      5.279742814980659e-09
+    ],
+    "scope": "Schaaf criterion and band coverage on the certified exact star; no wave pole or leakage sign"
+  },
+  "seconds": 58.664
+}

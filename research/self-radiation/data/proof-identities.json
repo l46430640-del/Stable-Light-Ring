@@ -1,0 +1,2602 @@
+{
+  "axial_adm_energy": {
+    "first_law": {
+      "fixed_scalar_first_law_bulk_cancellation": true,
+      "quadratic_completion_difference_has_positive_sign": true,
+      "auxiliary_path_changes_no_actual_preparation": true
+    },
+    "master_energy": {
+      "radial_extrinsic_coefficient": "(Lambda-2)*Q/(2*r*sqrt(f))",
+      "physical_energy_real_harmonic_prefactor": "Lambda*(Lambda-2)/(32*pi)",
+      "complex_highest_weight_prefactor": "Lambda*(Lambda-2)/(64*pi)",
+      "master_factorization": "P = (-d_x+p/r)(d_x+p/r)+alpha^2*(Lambda-2)/r^2",
+      "integration_by_parts_boundary": "d_x[(p/r)*Q^2]",
+      "matches_existing_master_normalization": true
+    },
+    "phase": {
+      "phase_formula": "e2(theta)=A_L*cos(theta)^2+B_L*sin(theta)^2",
+      "variation_from_mean": "(A_L-B_L)*cos(2*theta)/2",
+      "cutoff_residual_pairing_exact": true,
+      "finite_matrix_models": [
+        {
+          "dimension": 3,
+          "frequency_squared": 4,
+          "residual_pairing": "11/6"
+        },
+        {
+          "dimension": 3,
+          "frequency_squared": 9,
+          "residual_pairing": "203/144"
+        },
+        {
+          "dimension": 3,
+          "frequency_squared": 16,
+          "residual_pairing": "249/200"
+        },
+        {
+          "dimension": 3,
+          "frequency_squared": 25,
+          "residual_pairing": "349/300"
+        },
+        {
+          "dimension": 3,
+          "frequency_squared": 36,
+          "residual_pairing": "985/882"
+        },
+        {
+          "dimension": 3,
+          "frequency_squared": 49,
+          "residual_pairing": "3411/3136"
+        }
+      ],
+      "asymptotic_scope": "Uniform positivity follows analytically from existing normalized quasimode defect bounds."
+    }
+  },
+  "coherent_orbit_pairs": {
+    "angular": {
+      "exact_scalar_vector_tensor_cases": 18,
+      "opposite_parity_contraction_zero": true,
+      "quadrupole_node_count": 5,
+      "asymptotic_inclined_coefficient": "9/32",
+      "rows": [
+        {
+          "ell": 2,
+          "scalar": 0.24549512651549144,
+          "vector": 0.22410536425019884,
+          "tensor": 0.15846642276159686
+        },
+        {
+          "ell": 3,
+          "scalar": 0.2528249484237158,
+          "vector": 0.23985080590006172,
+          "tensor": 0.20067358162856505
+        },
+        {
+          "ell": 5,
+          "scalar": 0.26105370800189465,
+          "vector": 0.25476233268253407,
+          "tensor": 0.23586408826243166
+        },
+        {
+          "ell": 10,
+          "scalar": 0.269510425707833,
+          "vector": 0.26746088702267573,
+          "tensor": 0.2613115388874575
+        },
+        {
+          "ell": 20,
+          "scalar": 0.27485461273104894,
+          "vector": 0.27425904407296026,
+          "tensor": 0.2724723211831493
+        },
+        {
+          "ell": 40,
+          "scalar": 0.2779013082674899,
+          "vector": 0.27773987850756104,
+          "tensor": 0.2772555889002317
+        }
+      ],
+      "scope": "Highest weights in their common tilted plane; not equal m in the observation frame."
+    },
+    "radial": {
+      "action_frequency_differential": true,
+      "pair_indices": [
+        2,
+        -5
+      ],
+      "radial_Hamilton_Jacobi_phase": true,
+      "common_Airy_phase_cancels": true,
+      "uniform_turning_cap": true,
+      "oscillator_five_index_checks": [
+        {
+          "n": 8,
+          "fifth_moment": 0.01216150559437383,
+          "classical_limit": 0.03125
+        },
+        {
+          "n": 16,
+          "fifth_moment": 0.020458420415905745,
+          "classical_limit": 0.03125
+        },
+        {
+          "n": 32,
+          "fifth_moment": 0.025511506033523788,
+          "classical_limit": 0.03125
+        },
+        {
+          "n": 64,
+          "fifth_moment": 0.028290940430692538,
+          "classical_limit": 0.03125
+        },
+        {
+          "n": 128,
+          "fifth_moment": 0.029747479195068795,
+          "classical_limit": 0.03125
+        },
+        {
+          "n": 256,
+          "fifth_moment": 0.0304929232195605,
+          "classical_limit": 0.03125
+        }
+      ],
+      "scope": "Exact identities and a solvable radial model; no stellar eigenvalues or WKB error constants computed."
+    },
+    "polarization": {
+      "physical_axial_trace": true,
+      "physical_axial_transversality": true,
+      "positive_polarization_norm": "2*c^2*k_tangent^2",
+      "coherent_intensity": true,
+      "weak_Ricci_cross_coefficient": true,
+      "complete_null_dyad_components": 16,
+      "reversed_pair_retains_fast_low_angular_term": true,
+      "radial_density_and_current_phases": true,
+      "master_energy_normalization": true,
+      "eta": "2*a*b/(a^2+b^2)",
+      "scalar_first_order_zero": true
+    }
+  },
+  "coherent_initial_preparation": {
+    "phase_filter": {
+      "common_phase_quadratic_projection": true,
+      "two_quadrature_identity": true,
+      "five_phase_identity": true,
+      "carrier_count": 20,
+      "bilinear_frequency_checks": 1600,
+      "retained_frequency_multipliers": [
+        -1,
+        0,
+        1
+      ],
+      "coherent_difference_retained": true
+    },
+    "temporal_trace": {
+      "exact_gram_symmetry": true,
+      "separated_frequency_model": [
+        {
+          "frequency": 0.5,
+          "minimum_eigenvalue": 0.001887120157419293
+        },
+        {
+          "frequency": 0.75,
+          "minimum_eigenvalue": 0.009754377799401494
+        },
+        {
+          "frequency": 1.0,
+          "minimum_eigenvalue": 0.03157364259961496
+        },
+        {
+          "frequency": 1.25,
+          "minimum_eigenvalue": 0.078779063865045
+        }
+      ],
+      "coincident_frequency_gram_rank": 1,
+      "unrestricted_trace_counterexample": true,
+      "scope": "Small Gram models only; the smooth-test trace argument is analytic."
+    },
+    "constraints": {
+      "conformal_hamiltonian_linearization": true,
+      "fixed_charge_cancellation": true,
+      "scalar_block_right_inverse": true,
+      "lapse_ground_state_factorization": true,
+      "conformal_laplacian_factorization": true,
+      "maximal_chart_second_order_trace": true,
+      "scope": "Differential identities and a matrix chart test; no elliptic solve."
+    }
+  },
+  "common_carrier_realization": {
+    "geometry": {
+      "pairwise_normal_products": [
+        "1/16 + 3*sqrt(5)/16",
+        "1/16 - 3*sqrt(5)/16"
+      ],
+      "absolute_overlap_bound": "3*sqrt(5)/32 + 17/32",
+      "plane_gap": "15/16 - 3*sqrt(5)/16",
+      "positive_form_eigenvalues": [
+        "0",
+        "1-c",
+        "1+c"
+      ],
+      "normalized_complex_null_vectors": true,
+      "scope": "Exact five-plane geometry and highest-weight contraction factors"
+    },
+    "normalization": {
+      "independent_wigner_checks": [
+        {
+          "degree": 1,
+          "norm_squared": "0"
+        },
+        {
+          "degree": 3,
+          "norm_squared": "0"
+        },
+        {
+          "degree": 5,
+          "norm_squared": "18605/65536"
+        },
+        {
+          "degree": 7,
+          "norm_squared": "15237495/16777216"
+        }
+      ],
+      "odd_degree_bound_checks": 46,
+      "largest_fraction_of_bound": 0.2669960110022995,
+      "exact_low_degree_cancellations": [
+        1,
+        3
+      ],
+      "example_modulation": "20/101",
+      "common_energy_normalization_checks": 4,
+      "scope": "Angular norms of the specified wave sum, not stellar radial modes"
+    },
+    "channels": {
+      "carriers": 20,
+      "ordered_difference_products": {
+        "same_plane_slow": 40,
+        "same_plane_high_magnetic": 40,
+        "different_planes": 320
+      },
+      "difference_frequency_multipliers": [
+        -1,
+        0,
+        1
+      ],
+      "quadrupole_magnetic_indices_after_fivefold_symmetry": [
+        0
+      ],
+      "common_two_phase_filter_retains_beats": true,
+      "master_initial_data": [
+        "-F*sin(theta)",
+        "omega*F*cos(theta)"
+      ],
+      "scope": "Magnetic selection in each common plane; distinct-plane sources use the analytic overlap bound"
+    },
+    "caps": {
+      "normalization_induction_positive_remainder": "3*d+2",
+      "normalized_derivative_allocations": 98,
+      "sphere_cap_upper": "4*pi/A",
+      "angular_product_L1_order": "L^(-1/2)",
+      "normalized_angular_energy_error": "O(rho_ang^ell), rho_ang<3/4",
+      "scope": "The source L1 bound uses absolute products, distinct from exponentially small complex energy inner products"
+    }
+  },
+  "complete_quadratic_source": {
+    "connections": {
+      "free_first_derivative_symbols": 36,
+      "checked_components": 16,
+      "trace_connection_zero": true,
+      "product_identity": "Gamma1^c_bd Gamma1^d_ac=(T_ab+2*U_ab-2*V_ab)/4",
+      "nonzero_mixed_components": 16,
+      "scope": "Exact normal-frame identity for arbitrary trace-free symmetric tensor jets, including mixed terms"
+    },
+    "products": {
+      "U_identities": 16,
+      "V_identities": 16,
+      "U_remainder": "D_a*D_b in flat space; curvature*h*h in a curved background",
+      "V_remainder": "-h_bc*box(h_a^c)",
+      "scope": "Exact flat product rules; the covariant commutator is a zeroth-order curvature term"
+    },
+    "noether": {
+      "real_scalar_components": 2,
+      "checked_divergences": 4,
+      "potential": "V(s)=mu^2*s*(1-2*s/sigma^2)^2",
+      "stress_identity": "div(T)_b=sum_I (box(qI)-V_s*qI)*d_b(qI)",
+      "quadratic_source_identity": "div(tau)_b=sum_I S2_I*d_b(q0I), when E0=E1=S0=S1=0",
+      "scope": "Exact off-shell matter identity; its second-order consequence uses the exact background and linear equations"
+    },
+    "bounds": {
+      "terms": {
+        "connection_divergence": "1/L",
+        "U_divergence": "1/L",
+        "U_second_divergence": "L**(-2)",
+        "divergence_square": "L**(-2)",
+        "V_remainder": "1/L",
+        "curvature": "L**(-2)",
+        "scalar_direct": "1/L + L**(-2)"
+      },
+      "complete_residual_order": "O(L^-1) against fixed C^2 tests",
+      "annular_radial_sobolev_example": {
+        "distribution_order": 2,
+        "negative_order": 4,
+        "lift_count": 4,
+        "time_derivatives": 10
+      },
+      "scope": "Bookkeeping only; no convergence rate is assigned to the separate WKB orbital limit"
+    }
+  },
+  "causal_physical_pairing": {
+    "gauge_identity": {
+      "flat_covariant_product_rule_exact": true,
+      "metric_boundary_sign": "plus",
+      "remaining_scalar_volume_sign": "minus chi*dq*C",
+      "omitted_scalar_term_counterexample": 1,
+      "scope": "Exact tensor product rule in a flat chart; covariance gives the curved density identity"
+    },
+    "polarizations": {
+      "transverse_polarizations": 6,
+      "residual_gauge_directions": 4,
+      "transverse_radiative_directions": 2,
+      "pure_gauge_pairs_to_zero": true,
+      "polarization_gram_matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "cutoff_defect_order": "r^-2 after the past longitudinal constant vanishes",
+      "scope": "Leading asymptotically flat algebra; past decay and radial remainder are analytical inputs"
+    },
+    "constraints": {
+      "minor": "256*pi**2*A*Ap*f*omega*r**4",
+      "frequency_independent": true,
+      "condition": "A*A_prime*omega*f nonzero on one fixed matching sphere",
+      "scope": "Exact reconstruction-constraint minor; no numerical division by the stellar tail"
+    },
+    "gap": {
+      "real_part_squared_polynomial": "-a**2*eps**2 + y**2 - y*(-a**2 + eps**2 + 1)",
+      "value_at_epsilon_squared": "-epsilon^2",
+      "conclusion": "Re sqrt(1-(a+i epsilon)^2)>epsilon for epsilon>0",
+      "reason": "The quadratic has one positive root; its value at epsilon^2 is strictly negative"
+    },
+    "matching": {
+      "coupled_canonical_change": true,
+      "central_space_lagrangian": true,
+      "outgoing_dual_normalizations": [
+        1,
+        0,
+        0
+      ],
+      "test_is_regular": true,
+      "scope": "Six-dimensional canonical model only; nondegeneracy of the physical pairing is proved in the document"
+    },
+    "tails": {
+      "paired_tails": [
+        {
+          "physical_source_decay": "3",
+          "paired_integral": "1/X"
+        },
+        {
+          "physical_source_decay": "15/4",
+          "paired_integral": "4/(7*X**(7/4))"
+        }
+      ],
+      "gauge_boundary": "1/x -> 0",
+      "exponential_cancellation_exact": true,
+      "scope": "Exact majorant integrals, not an evaluation of the actual stellar amplitude"
+    },
+    "residue": {
+      "model": "F(u)=exp(gamma*u)+cos(nu*u), u>=0",
+      "original_transform_domain": "Im zeta>gamma",
+      "allowed_upper_pole": "zeta=i*gamma",
+      "boundary_news_residue": "nu/2",
+      "all_finite_future_shifts_preserve_residue": true,
+      "initial_boundary_field_value": 2,
+      "scope": "Exact growing causal model; no late-time decay or final-value theorem is inferred"
+    }
+  },
+  "causal_quadrupole": {
+    "complex_chart": {
+      "absolute_rn_upper": 0.19737759799484736,
+      "relative_squared_frequency_radius": "1/100",
+      "relative_determinant_error": "701/10000",
+      "complex_determinant_margin": "299/10000",
+      "tail_exponent_after_allowances": "5/8",
+      "scope": "Uniform algebraic chart bound; no numerical matching radius in frequency."
+    },
+    "initial_tail": {
+      "vacuum_constraint_laplacian": true,
+      "moncrief_initial_field": "Q*(M + 2*rho)**2*(M + 12*rho)/(3*rho**3*(M**2 + 10*M*rho + 4*rho**2))",
+      "exact_initial_acceleration": "128*M*Q*(M - 2*rho)*(2*M + rho)/((M + 2*rho)**5*(M**2 + 10*M*rho + 4*rho**2))",
+      "leading_acceleration": "-2*M*Q/rho^5",
+      "positive_density_modulation_limit": "2/9",
+      "zero_mass_static_limit": true,
+      "weighted_radial_L2_range": "s < 3/2",
+      "scope": "Exact Schwarzschild comparison tail; stellar deviations are exponentially small analytically."
+    },
+    "causal_residue": {
+      "real_wave_news_boundary_residue": "nu*Aout/2",
+      "causal_conservation_initial_term": true,
+      "unstable_oscillator_residue": "-force/(nu**2 + rate**2)",
+      "periodic_initial_energy_per_radius": "nu^2*abs(Aout)^2/2",
+      "polynomial_tail_blocks_naive_complex_Jost_integral": true,
+      "scope": "Residue algebra and obstruction examples; stellar initial-news regularity is unproved."
+    }
+  },
+  "kinetic_future_transform": {
+    "energy": {
+      "exact_weighted_divergence": true,
+      "potential_derivative_absent": true,
+      "incoming_null_flux": "q_u^2+V*q^2/4 in du",
+      "radial_correction_sign": "p_prime/p=-lambda/x^2",
+      "scope": "Exact scalar identity, summed over real channels in the proof"
+    },
+    "absorption": {
+      "examples": [
+        {
+          "radius": 20,
+          "all_six_leading_minors_positive": true
+        },
+        {
+          "radius": 40,
+          "all_six_leading_minors_positive": true
+        },
+        {
+          "radius": 80,
+          "all_six_leading_minors_positive": true
+        },
+        {
+          "radius": 160,
+          "all_six_leading_minors_positive": true
+        },
+        {
+          "radius": 320,
+          "all_six_leading_minors_positive": true
+        }
+      ],
+      "exponential_envelope_checked": true,
+      "scope": "Illustrative coefficient models only; actual coefficients use analytic Young inequalities"
+    },
+    "cutoff": {
+      "matrix_null_commutator_exact": true,
+      "second_cutoff_derivative_cancels": true,
+      "initial_velocity_cutoff_term_retained": true,
+      "Lorenz_cutoff_defect_nonzero": true
+    },
+    "integrals": {
+      "cutoff_source_integrals": [
+        {
+          "source_decay": "2",
+          "weighted_squared_tail": "1/X"
+        },
+        {
+          "source_decay": "11/4",
+          "weighted_squared_tail": "2/(5*X**(5/2))"
+        },
+        {
+          "source_decay": "15/4",
+          "weighted_squared_tail": "2/(9*X**(9/2))"
+        }
+      ],
+      "metric_null_derivative_kernel_integrable": true,
+      "weighted_Cauchy_Schwarz_constant": "1/sqrt(2*sigma)",
+      "scope": "Exact integrals supporting the analytic flux-to-trace argument"
+    },
+    "transform": {
+      "free_Dirichlet_phase_cancellation": true,
+      "outgoing_coefficient_bound": "1/(abs(zeta)*X) for a 1/x^2 envelope",
+      "algebraic_source_not_in_old_exponential_class": true,
+      "exact_growing_outgoing_wave_transform": true,
+      "incompatible_strip_examples": [
+        {
+          "past_decay": 1,
+          "future_growth": 2,
+          "bilateral_strip_empty": true,
+          "cutoff_transform_damping": 3
+        },
+        {
+          "past_decay": 2,
+          "future_growth": 4,
+          "bilateral_strip_empty": true,
+          "cutoff_transform_damping": 5
+        },
+        {
+          "past_decay": 3,
+          "future_growth": 5,
+          "bilateral_strip_empty": true,
+          "cutoff_transform_damping": 6
+        }
+      ],
+      "scope": "Free channel models only; the coupled physical continuation is still open"
+    },
+    "lift": {
+      "second_spatial_derivative_cancels": true,
+      "scope": "Forcing-lift algebra; the H^-1 to H^1 bound uses the positive reference operator"
+    },
+    "late_window": {
+      "residue_unchanged_by_any_finite_future_shift": true,
+      "difference_has_zero_residue": true,
+      "scope": "Periodic model. The actual kinetic residue has not yet been identified"
+    }
+  },
+  "late_carrier_transfer": {
+    "gauge": {
+      "retarded_radial_component": "4*r*Q_v/p",
+      "shear": "2*Q_rad*X_AB",
+      "news_factor": "Lambda*(Lambda - 2)/(16*pi)",
+      "energy_flux_normalization_exact": true,
+      "causal_source_truncation_identity": true,
+      "scope": "Gauge and flux algebra. Exponential defect size is inherited from the quasimode construction"
+    },
+    "null_source": {
+      "all_linear_components_zero": true,
+      "only_quadratic_component": "uu",
+      "quadratic_uu": "a(u)*Derivative(a(u), (u, 2)) + b(u)*Derivative(b(u), (u, 2)) + Derivative(a(u), u)**2/2 + Derivative(b(u), u)**2/2",
+      "scalar_curvature_quadratic_zero": true,
+      "null_shift_functions_cancel": true,
+      "scope": "Exact quadratic Einstein tensor for arbitrary one-null-coordinate profiles; angular and background remainders are estimated analytically"
+    },
+    "logarithm": {
+      "principal_lift_exact": true,
+      "weighted_remainder_integral": "5/R",
+      "transverse_lift_zero": true,
+      "gauge_defect": "H*(log(x/R)-1)*du/x^2",
+      "scope": "Principal identity and exact tail integral; stellar coefficient corrections have an extra radial power"
+    },
+    "lifts": {
+      "noncommuting_matrix_identity": true,
+      "checked_lift_counts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "spatial_budgets": [
+        {
+          "input_negative_order": 2,
+          "lift_count": 3,
+          "gained_order": 4
+        },
+        {
+          "input_negative_order": 3,
+          "lift_count": 3,
+          "gained_order": 3
+        },
+        {
+          "input_negative_order": 4,
+          "lift_count": 4,
+          "gained_order": 4
+        },
+        {
+          "input_negative_order": 5,
+          "lift_count": 4,
+          "gained_order": 3
+        },
+        {
+          "input_negative_order": 6,
+          "lift_count": 5,
+          "gained_order": 4
+        },
+        {
+          "input_negative_order": 7,
+          "lift_count": 5,
+          "gained_order": 3
+        },
+        {
+          "input_negative_order": 8,
+          "lift_count": 6,
+          "gained_order": 4
+        },
+        {
+          "input_negative_order": 9,
+          "lift_count": 6,
+          "gained_order": 3
+        }
+      ],
+      "scope": "Ordered operator algebra and derivative counts; elliptic coercivity and radiation continuity are analytical"
+    },
+    "future_extension": {
+      "polynomial_bump_orders": [
+        3,
+        5,
+        8
+      ],
+      "total_integrals_zero": true,
+      "lift_compact_at_both_ends": true,
+      "leading_source_cancels_on_both_intervals": true,
+      "scope": "Finite-smoothness examples of the future correction. The proof uses a smooth unit-integral bump"
+    }
+  },
+  "causal_observation_transfer": {
+    "initial": {
+      "noncommuting_gyroscopic_system": true,
+      "laplace_initial_term": "u1+(s*I+D_t)*u0",
+      "fourier_convention": "s=-i*zeta",
+      "omitted_D_t_u0_is_nonzero": true,
+      "delta_prime_convolution": "eta_prime(t)*u0",
+      "scope": "Polynomial vector test of the exact distributional initial identity"
+    },
+    "cutoff": {
+      "delta_prime_coefficient": "c0*u0",
+      "delta_coefficient": "c0*(u1+D_t*u0)+c1*u0",
+      "cutoff_delta_prime_product": -1,
+      "principal_commutator_delta": 2,
+      "net_c1_coefficient": 1,
+      "gauge_initial_term": "delta(t)*c0*grad(t)^a*bar_h0_ab",
+      "scope": "Distributional product coefficients; stellar gauge propagation is a separate input"
+    },
+    "residue": {
+      "cases": [
+        {
+          "omega": "1/5",
+          "frequency": "1/7",
+          "news_residue": [
+            "-30695/492694 + 490*I/246347",
+            "19215/492694 - 245*I/246347"
+          ],
+          "independent_of_initial_data": true,
+          "unstable_positive_growth_root_exists": true
+        },
+        {
+          "omega": "1/3",
+          "frequency": "2/9",
+          "news_residue": [
+            "-64710/690161 + 5400*I/690161",
+            "41895/690161 - 2700*I/690161"
+          ],
+          "independent_of_initial_data": true,
+          "unstable_positive_growth_root_exists": true
+        },
+        {
+          "omega": "2/5",
+          "frequency": "1/4",
+          "news_residue": [
+            "-2830/27287 + 320*I/27287",
+            "1860/27287 - 160*I/27287"
+          ],
+          "independent_of_initial_data": true,
+          "unstable_positive_growth_root_exists": true
+        }
+      ],
+      "residue_formula": "nu*P(nu)^(-1)*force/2",
+      "convergence_half_plane_requires_growth_bound": true,
+      "scope": "Coupled gyroscopic ODE with unstable poles, not a stellar radiation calculation"
+    },
+    "margin": {
+      "cases": [
+        {
+          "carrier": 8,
+          "margin": "47/320",
+          "phase_observations": [
+            "2843/320",
+            "-2277/320"
+          ]
+        },
+        {
+          "carrier": 16,
+          "margin": "173/2304",
+          "phase_observations": [
+            "39013/2304",
+            "-34715/2304"
+          ]
+        },
+        {
+          "carrier": 32,
+          "margin": "665/17408",
+          "phase_observations": [
+            "573833/17408",
+            "-540279/17408"
+          ]
+        },
+        {
+          "carrier": 64,
+          "margin": "2609/135168",
+          "phase_observations": [
+            "8783377/135168",
+            "-8518127/135168"
+          ]
+        },
+        {
+          "carrier": 128,
+          "margin": "10337/1064960",
+          "phase_observations": [
+            "137369633/1064960",
+            "-135260127/1064960"
+          ]
+        },
+        {
+          "carrier": 256,
+          "margin": "41153/8454144",
+          "phase_observations": [
+            "2172674113/8454144",
+            "-2155847615/8454144"
+          ]
+        }
+      ],
+      "quadrupole_lower_bound_factor": "3/40",
+      "physical_numerical_threshold_certified": false,
+      "scope": "Exact triangle inequality and two-phase selection models; no physical constants assigned"
+    }
+  },
+  "mass_matched_exterior": {
+    "parity": {
+      "axial_examples": [
+        {
+          "ell": 3,
+          "scalar_phase": "cos",
+          "axial_inversion_parity": 1
+        },
+        {
+          "ell": 3,
+          "scalar_phase": "sin",
+          "axial_inversion_parity": 1
+        },
+        {
+          "ell": 5,
+          "scalar_phase": "cos",
+          "axial_inversion_parity": 1
+        },
+        {
+          "ell": 5,
+          "scalar_phase": "sin",
+          "axial_inversion_parity": 1
+        },
+        {
+          "ell": 7,
+          "scalar_phase": "cos",
+          "axial_inversion_parity": 1
+        },
+        {
+          "ell": 7,
+          "scalar_phase": "sin",
+          "axial_inversion_parity": 1
+        }
+      ],
+      "flat_vector_symbol_inverse": true,
+      "even_fundamental_matrix": "-(7*delta_ij+n_i*n_j)/(32*pi*r)",
+      "vector_green_equation_off_origin_exact_points": 3,
+      "vector_green_delta_normalization": true,
+      "odd_vector_source_has_zero_total_integral": true
+    },
+    "powers": {
+      "elliptic_bootstrap": [
+        {
+          "delta": "-3/4",
+          "first_source_power": "7/2",
+          "first_vector_remainder": "-3/2",
+          "second_source_power": "9/2",
+          "second_vector_remainder": "-5/2"
+        },
+        {
+          "delta": "-2/3",
+          "first_source_power": "10/3",
+          "first_vector_remainder": "-4/3",
+          "second_source_power": "13/3",
+          "second_vector_remainder": "-7/3"
+        },
+        {
+          "delta": "-9/10",
+          "first_source_power": "19/5",
+          "first_vector_remainder": "-9/5",
+          "second_source_power": "24/5",
+          "second_vector_remainder": "-14/5"
+        }
+      ],
+      "weighted_norms": [
+        {
+          "weight": "1/4",
+          "metric_squared_tail": "2/(7*R**(7/2))",
+          "momentum_squared_tail": "2/(3*R**(3/2))",
+          "unmatched_mass_norm_diverges": true
+        },
+        {
+          "weight": "1/2",
+          "metric_squared_tail": "1/(3*R**3)",
+          "momentum_squared_tail": "1/R",
+          "unmatched_mass_norm_diverges": true
+        },
+        {
+          "weight": "3/4",
+          "metric_squared_tail": "2/(5*R**(5/2))",
+          "momentum_squared_tail": "2/sqrt(R)",
+          "unmatched_mass_norm_diverges": true
+        }
+      ],
+      "final_scalar_source_power": 6,
+      "first_uncontrolled_moment": "third, logarithmic",
+      "scalar_remainder": "O(r^-4 log r)",
+      "numerical_quadrature_points": 0
+    },
+    "conformal": {
+      "quadrupole_tail_coefficient": "q20(a)=a^2*Q_L+O(a^3)",
+      "mass_tail_coefficient": "M(a)/2",
+      "reference_areal_radius_smooth": true,
+      "exterior_tracefree_correction_zero": true
+    },
+    "retiming": {
+      "tortoise_mass_derivative": "-4*M/(-2*M + r) + 2*log((-2*M + r)/scale)",
+      "raw_cubic_news": "N3 - e2*chi_r*d_u N1",
+      "raw_quartic_flux": "b4 - e2*chi_r*[||N1||_sphere^2]_endpoints",
+      "raw_efficiency": "kappa - chi_r/e2*[||N1||_sphere^2]_endpoints",
+      "smooth_window_difference": "e2*chi_r*integral(w_prime*||N1||_sphere^2)",
+      "early_zero_N1_cubic_correction_zero": true
+    }
+  },
+  "prepared_bondi_family": {
+    "mass": {
+      "reference_parameter_commutators": 6,
+      "mass_parameter_commutators": 6,
+      "mass_triangular_identities_unchanged": true,
+      "scope": "Exact rescaled reference operator, not the full metric PDE estimate"
+    },
+    "shear": {
+      "tracefree_shear_preserved": true,
+      "time_derivative_preserved": true,
+      "amplitude_derivatives_preserved": 3,
+      "area_radius_error": "O(r^(-1/3))+O(r^(-1))",
+      "scope": "Local formal coordinate-order model. Eikonal existence uses the analytic proof"
+    },
+    "matter": {
+      "field_decay": "15/4",
+      "r_squared_Tuu_decay": "11/2",
+      "radial_scalar_stress_decay": "19/2",
+      "area_gauge_beta_decay": 2,
+      "scalar_limiting_flux_zero": true
+    }
+  },
+  "parameter_radiation_map": {
+    "coordinates": {
+      "common_metric": "-f dq^2+2 dq dr+r^2 dOmega^2",
+      "volume_density_independent_of_mass": true,
+      "scalar_mass_potential_independent_of_mass": true,
+      "reference_operator_mass_derivative": "2 rho0 rhoI^2 (D1+1)^2",
+      "reference_operator_second_mass_derivative": 0,
+      "gauge_covector_mass_derivatives_decay": true,
+      "scope": "The undamped Schwarzschild scalar operator is checked exactly"
+    },
+    "leading_source": {
+      "nondecaying_output_components": [
+        "11"
+      ],
+      "gauge_input_boundary_value": 0,
+      "scalar_parameter_mass_potential_derivative": 0,
+      "scope": "Three-block pattern of the leading metric matrices, not the full tensor operator"
+    }
+  },
+  "joint_gauge_matter": {
+    "gauge": {
+      "exact_rational_metric_jets": [
+        {
+          "seed": 1,
+          "metric_derivative_variants": 2,
+          "reduced_scalar_variation": "17990733297899400872274495897407179626498668157360/3310292928442034220074181045632658985850547821276131"
+        },
+        {
+          "seed": 3,
+          "metric_derivative_variants": 2,
+          "reduced_scalar_variation": "21134409167106137790827029356058755625077986210603/2381055762796622030660151056067391334491763291251836"
+        },
+        {
+          "seed": 7,
+          "metric_derivative_variants": 2,
+          "reduced_scalar_variation": "-1684536042660790549895154518943991935041746505685188608/20709335789484874338302464469189191041599869214818745697"
+        }
+      ],
+      "four_dimensional_trace_cancellation": true,
+      "gauge_source": "2*gamma*(bar_g_inverse-g_inverse)*c",
+      "scalar_metric_block_has_no_derivative_of_h": true,
+      "cancellation_does_not_require_C_zero": true
+    },
+    "principal": {
+      "metric_principal": "-Box_g*I_10/2",
+      "scalar_principal": "Box_g*I_2",
+      "common_characteristic_fields": 12,
+      "subsidiary_principal": "Box_g*C",
+      "normal_constraint": "n^mu*G(DC)_mu_nu=A_nu/2",
+      "initial_gauge_jacobian": [
+        "-1/2",
+        "-1",
+        "-1",
+        "-1"
+      ]
+    },
+    "matter": {
+      "stress_divergence_identity": true,
+      "off_gauge_divergence": "-Re(dphi_bar*dphi)_nu_lambda*C^lambda",
+      "mass_eigenvalues": [
+        "(2*x - 1)*(6*x - 1)",
+        "60*x**2 - 24*x + 1"
+      ],
+      "scalar_small_field_condition": "|phi|^2 <= sigma0^2/64",
+      "scalar_mass_lower_bound": "655*mu^2/1024",
+      "inherited_stress_variation": {
+        "trace_reversed_stress_variation": true,
+        "metric_source_contains_only_first_scalar_derivatives": true,
+        "metric_source_has_no_metric_derivatives": true
+      }
+    }
+  },
+  "joint_principal_flux": {
+    "principal": {
+      "metric_components_checked": 16,
+      "inverse_metric": "arbitrary symmetric matrix",
+      "perturbation": "arbitrary symmetric matrix",
+      "gauge_constraint_used": false,
+      "rescaled_principal_operator": "-q*r*g^{ab} partial_a partial_b I_12",
+      "matter_orders": {
+        "scalar_to_metric": 1,
+        "metric_to_scalar": 0
+      },
+      "scope": "Principal Ricci-gauge cancellation; matter orders follow the separately checked full reduction"
+    },
+    "frame": {
+      "coframe_matrix_identity": true,
+      "full_reference_frame_identity": true,
+      "H11_contribution": "rho0*y^2*H11 in entry 00 only",
+      "angular_contribution": "rho0*y*H_AB",
+      "perturbative_principal_weight": "rho0^(1+ell0)*y^ellI, 0<ellI<1/2",
+      "timelike_vector_norm": "-(2+f*y)",
+      "timelike_covector_norm": "-(2-f*y)",
+      "V_tau": 2,
+      "reference_frame_determinant": -1,
+      "note": "Pointwise weights and tame inverse-matrix bounds also require the stated analytical regularity assumptions"
+    },
+    "mass_flux": {
+      "principal_flux_sum_of_squares": true,
+      "positivity_assumptions": "V0>=b>=0, M>=0, future normal",
+      "complex_mass_boundary_young_identity": true,
+      "positive_and_negative_cross_terms": true,
+      "mass_bulk_coefficient": "2*alpha0-4*alphaI-V(log J)",
+      "future_measure": "w^2 i_V(J dmu_b), with outward orientation",
+      "boundary_derivative_requirement": "z only",
+      "volume_derivative_requirement": "z and Vz",
+      "no_bound_on_Mz_in_Y_assumed": true
+    }
+  },
+  "fixed_weight_scalar": {
+    "commutators": {
+      "commutator_cases": 30,
+      "mass_preserved_by_V": true,
+      "coordinate_change": "tau=-log(y), s=log(q*r), V=2*d_tau, D1=-d_tau-d_s",
+      "angular_example": "Two noncommuting scalar angular derivations; no spherical wave estimate inferred"
+    },
+    "pairing": {
+      "variable_density_identity": true,
+      "mass_bulk_coefficient": "2*alpha0+4*A-V(log J)",
+      "exact_rectangle_boundary_checked": true,
+      "boundary_not_discarded": true
+    },
+    "hierarchy": {
+      "nodes": 454,
+      "mass_dependency_edges": 1365,
+      "every_edge_lowers_D1_count": true,
+      "finite_triangular_models": [
+        {
+          "max_D1_count": 1,
+          "finite_induction_length": 2,
+          "largest_integer_coefficient": "2"
+        },
+        {
+          "max_D1_count": 2,
+          "finite_induction_length": 3,
+          "largest_integer_coefficient": "12"
+        },
+        {
+          "max_D1_count": 3,
+          "finite_induction_length": 4,
+          "largest_integer_coefficient": "142"
+        },
+        {
+          "max_D1_count": 5,
+          "finite_induction_length": 6,
+          "largest_integer_coefficient": "90852"
+        },
+        {
+          "max_D1_count": 8,
+          "finite_induction_length": 9,
+          "largest_integer_coefficient": "19595936844"
+        }
+      ],
+      "weight_change_required_by_mass_induction": false,
+      "scope": "Derivative and induction algebra; not a numerical estimate of PDE constants"
+    },
+    "wave": {
+      "exact_rescaled_Schwarzschild_operator": true,
+      "reference_angular_commutators_checked": true,
+      "principal_radial_part": "-2 D1 (D0-D1)",
+      "scope": "Exact radial operator and a local angular commutator model"
+    },
+    "nonlinearity": {
+      "exact_cubic_and_quintic_rescaling": true,
+      "recovery_cases": [
+        {
+          "A": "1/16",
+          "alpha0": "1/4",
+          "recovered_weights": [
+            [
+              "1/4",
+              "-1/16"
+            ],
+            [
+              "9/4",
+              "15/16"
+            ],
+            [
+              "17/4",
+              "31/16"
+            ],
+            [
+              "25/4",
+              "47/16"
+            ],
+            [
+              "33/4",
+              "63/16"
+            ],
+            [
+              "41/4",
+              "79/16"
+            ],
+            [
+              "49/4",
+              "95/16"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "29/4",
+            "63/16"
+          ]
+        },
+        {
+          "A": "1/16",
+          "alpha0": "1/2",
+          "recovered_weights": [
+            [
+              "1/2",
+              "-1/16"
+            ],
+            [
+              "5/2",
+              "15/16"
+            ],
+            [
+              "9/2",
+              "31/16"
+            ],
+            [
+              "13/2",
+              "47/16"
+            ],
+            [
+              "17/2",
+              "63/16"
+            ],
+            [
+              "21/2",
+              "79/16"
+            ],
+            [
+              "25/2",
+              "95/16"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "15/2",
+            "63/16"
+          ]
+        },
+        {
+          "A": "1/16",
+          "alpha0": "1",
+          "recovered_weights": [
+            [
+              "1",
+              "-1/16"
+            ],
+            [
+              "3",
+              "15/16"
+            ],
+            [
+              "5",
+              "31/16"
+            ],
+            [
+              "7",
+              "47/16"
+            ],
+            [
+              "9",
+              "63/16"
+            ],
+            [
+              "11",
+              "79/16"
+            ],
+            [
+              "13",
+              "95/16"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "8",
+            "63/16"
+          ]
+        },
+        {
+          "A": "1/4",
+          "alpha0": "1/4",
+          "recovered_weights": [
+            [
+              "1/4",
+              "-1/4"
+            ],
+            [
+              "9/4",
+              "3/4"
+            ],
+            [
+              "17/4",
+              "7/4"
+            ],
+            [
+              "25/4",
+              "11/4"
+            ],
+            [
+              "33/4",
+              "15/4"
+            ],
+            [
+              "41/4",
+              "19/4"
+            ],
+            [
+              "49/4",
+              "23/4"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "29/4",
+            "15/4"
+          ]
+        },
+        {
+          "A": "1/4",
+          "alpha0": "1/2",
+          "recovered_weights": [
+            [
+              "1/2",
+              "-1/4"
+            ],
+            [
+              "5/2",
+              "3/4"
+            ],
+            [
+              "9/2",
+              "7/4"
+            ],
+            [
+              "13/2",
+              "11/4"
+            ],
+            [
+              "17/2",
+              "15/4"
+            ],
+            [
+              "21/2",
+              "19/4"
+            ],
+            [
+              "25/2",
+              "23/4"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "15/2",
+            "15/4"
+          ]
+        },
+        {
+          "A": "1/4",
+          "alpha0": "1",
+          "recovered_weights": [
+            [
+              "1",
+              "-1/4"
+            ],
+            [
+              "3",
+              "3/4"
+            ],
+            [
+              "5",
+              "7/4"
+            ],
+            [
+              "7",
+              "11/4"
+            ],
+            [
+              "9",
+              "15/4"
+            ],
+            [
+              "11",
+              "19/4"
+            ],
+            [
+              "13",
+              "23/4"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "8",
+            "15/4"
+          ]
+        },
+        {
+          "A": "3/8",
+          "alpha0": "1/4",
+          "recovered_weights": [
+            [
+              "1/4",
+              "-3/8"
+            ],
+            [
+              "9/4",
+              "5/8"
+            ],
+            [
+              "17/4",
+              "13/8"
+            ],
+            [
+              "25/4",
+              "21/8"
+            ],
+            [
+              "33/4",
+              "29/8"
+            ],
+            [
+              "41/4",
+              "37/8"
+            ],
+            [
+              "49/4",
+              "45/8"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "29/4",
+            "29/8"
+          ]
+        },
+        {
+          "A": "3/8",
+          "alpha0": "1/2",
+          "recovered_weights": [
+            [
+              "1/2",
+              "-3/8"
+            ],
+            [
+              "5/2",
+              "5/8"
+            ],
+            [
+              "9/2",
+              "13/8"
+            ],
+            [
+              "13/2",
+              "21/8"
+            ],
+            [
+              "17/2",
+              "29/8"
+            ],
+            [
+              "21/2",
+              "37/8"
+            ],
+            [
+              "25/2",
+              "45/8"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "15/2",
+            "29/8"
+          ]
+        },
+        {
+          "A": "3/8",
+          "alpha0": "1",
+          "recovered_weights": [
+            [
+              "1",
+              "-3/8"
+            ],
+            [
+              "3",
+              "5/8"
+            ],
+            [
+              "5",
+              "13/8"
+            ],
+            [
+              "7",
+              "21/8"
+            ],
+            [
+              "9",
+              "29/8"
+            ],
+            [
+              "11",
+              "37/8"
+            ],
+            [
+              "13",
+              "45/8"
+            ]
+          ],
+          "three_step_phi_weights": [
+            "8",
+            "29/8"
+          ]
+        }
+      ],
+      "abstract_contraction_examples": [
+        {
+          "C": 1,
+          "radius": "1/100",
+          "bound": "6001/20000000"
+        },
+        {
+          "C": 2,
+          "radius": "1/200",
+          "bound": "24001/160000000"
+        },
+        {
+          "C": 10,
+          "radius": "1/1000",
+          "bound": "600001/20000000000"
+        },
+        {
+          "C": 100,
+          "radius": "1/10000",
+          "bound": "60000001/20000000000000"
+        }
+      ],
+      "three_step_recovery_derivative_cost": 6,
+      "critical_cubic_boundary": "A=1/2 has no positive y gain; it is excluded",
+      "scope": "Weights, derivative subbudget and abstract norm inequalities; no evolution is performed"
+    },
+    "coupling": [
+      {
+        "ell0": "1/4",
+        "ellI": "1/8",
+        "nonlinear_source_null_margin": "43/8",
+        "mixed_source_null_margin": "19/8",
+        "mixed_source_spatial_margin": "21/4"
+      },
+      {
+        "ell0": "1/2",
+        "ellI": "1/4",
+        "nonlinear_source_null_margin": "21/4",
+        "mixed_source_null_margin": "9/4",
+        "mixed_source_spatial_margin": "11/2"
+      },
+      {
+        "ell0": "1",
+        "ellI": "2/5",
+        "nonlinear_source_null_margin": "51/10",
+        "mixed_source_null_margin": "21/10",
+        "mixed_source_spatial_margin": "6"
+      }
+    ]
+  },
+  "mass_jet_energy": {
+    "mass": {
+      "cases": [
+        {
+          "order": 1,
+          "radial_indices": 3,
+          "connections": 2,
+          "assumed_low_constant": 1,
+          "theta": "1/96",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 1,
+          "radial_indices": 3,
+          "connections": 2,
+          "assumed_low_constant": 3,
+          "theta": "1/288",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 1,
+          "radial_indices": 3,
+          "connections": 2,
+          "assumed_low_constant": 10,
+          "theta": "1/960",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 2,
+          "radial_indices": 6,
+          "connections": 8,
+          "assumed_low_constant": 1,
+          "theta": "1/768",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 2,
+          "radial_indices": 6,
+          "connections": 8,
+          "assumed_low_constant": 3,
+          "theta": "1/2304",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 2,
+          "radial_indices": 6,
+          "connections": 8,
+          "assumed_low_constant": 10,
+          "theta": "1/7680",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 3,
+          "radial_indices": 10,
+          "connections": 20,
+          "assumed_low_constant": 1,
+          "theta": "1/3840",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 3,
+          "radial_indices": 10,
+          "connections": 20,
+          "assumed_low_constant": 3,
+          "theta": "1/11520",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 3,
+          "radial_indices": 10,
+          "connections": 20,
+          "assumed_low_constant": 10,
+          "theta": "1/38400",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 4,
+          "radial_indices": 15,
+          "connections": 40,
+          "assumed_low_constant": 1,
+          "theta": "1/15360",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 4,
+          "radial_indices": 15,
+          "connections": 40,
+          "assumed_low_constant": 3,
+          "theta": "1/46080",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 4,
+          "radial_indices": 15,
+          "connections": 40,
+          "assumed_low_constant": 10,
+          "theta": "1/153600",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 5,
+          "radial_indices": 21,
+          "connections": 70,
+          "assumed_low_constant": 1,
+          "theta": "1/53760",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 5,
+          "radial_indices": 21,
+          "connections": 70,
+          "assumed_low_constant": 3,
+          "theta": "1/161280",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 5,
+          "radial_indices": 21,
+          "connections": 70,
+          "assumed_low_constant": 10,
+          "theta": "1/537600",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 6,
+          "radial_indices": 28,
+          "connections": 112,
+          "assumed_low_constant": 1,
+          "theta": "1/172032",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 6,
+          "radial_indices": 28,
+          "connections": 112,
+          "assumed_low_constant": 3,
+          "theta": "1/516096",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 6,
+          "radial_indices": 28,
+          "connections": 112,
+          "assumed_low_constant": 10,
+          "theta": "1/1720320",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 7,
+          "radial_indices": 36,
+          "connections": 168,
+          "assumed_low_constant": 1,
+          "theta": "1/516096",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 7,
+          "radial_indices": 36,
+          "connections": 168,
+          "assumed_low_constant": 3,
+          "theta": "1/1548288",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 7,
+          "radial_indices": 36,
+          "connections": 168,
+          "assumed_low_constant": 10,
+          "theta": "1/5160960",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 8,
+          "radial_indices": 45,
+          "connections": 240,
+          "assumed_low_constant": 1,
+          "theta": "1/1474560",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 8,
+          "radial_indices": 45,
+          "connections": 240,
+          "assumed_low_constant": 3,
+          "theta": "1/4423680",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 8,
+          "radial_indices": 45,
+          "connections": 240,
+          "assumed_low_constant": 10,
+          "theta": "1/14745600",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 9,
+          "radial_indices": 55,
+          "connections": 330,
+          "assumed_low_constant": 1,
+          "theta": "1/4055040",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 9,
+          "radial_indices": 55,
+          "connections": 330,
+          "assumed_low_constant": 3,
+          "theta": "1/12165120",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 9,
+          "radial_indices": 55,
+          "connections": 330,
+          "assumed_low_constant": 10,
+          "theta": "1/40550400",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 10,
+          "radial_indices": 66,
+          "connections": 440,
+          "assumed_low_constant": 1,
+          "theta": "1/10813440",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 10,
+          "radial_indices": 66,
+          "connections": 440,
+          "assumed_low_constant": 3,
+          "theta": "1/32440320",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 10,
+          "radial_indices": 66,
+          "connections": 440,
+          "assumed_low_constant": 10,
+          "theta": "1/108134400",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 11,
+          "radial_indices": 78,
+          "connections": 572,
+          "assumed_low_constant": 1,
+          "theta": "1/28114944",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 11,
+          "radial_indices": 78,
+          "connections": 572,
+          "assumed_low_constant": 3,
+          "theta": "1/84344832",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 11,
+          "radial_indices": 78,
+          "connections": 572,
+          "assumed_low_constant": 10,
+          "theta": "1/281149440",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 12,
+          "radial_indices": 91,
+          "connections": 728,
+          "assumed_low_constant": 1,
+          "theta": "1/71565312",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 12,
+          "radial_indices": 91,
+          "connections": 728,
+          "assumed_low_constant": 3,
+          "theta": "1/214695936",
+          "absorption_bound_passed": true
+        },
+        {
+          "order": 12,
+          "radial_indices": 91,
+          "connections": 728,
+          "assumed_low_constant": 10,
+          "theta": "1/715653120",
+          "absorption_bound_passed": true
+        }
+      ],
+      "general_comparison_bound": "||S_p(theta)||_2 <= n_p*p*2^p*theta",
+      "sufficient_choice": "theta_p <= 1/(16*C0*n_p*p*2^p)",
+      "all_connections_lower_D1_count": true,
+      "scalar_parameter_and_angular_indices_are_spectators": true,
+      "scope": "Exact radial derivative graph and norm bounds; C0 is assumed to bound the actual bulk and future-flux pairings"
+    },
+    "division": {
+      "nonzero_commutator": "[L0,M^-1]u=M^-1*(-2*D0*u-2*u-2*y*(D1*u+u)) for the flat radial model",
+      "inverse_mass_conormal_weight_preserved": true,
+      "ordered_three_step_identity": true,
+      "scope": "Variable differential operators remain ordered; the test is not an inverse estimate"
+    }
+  },
+  "radiation_trace_recovery": {
+    "weights": {
+      "all_source_weight_margins_positive": true,
+      "margins": [
+        [
+          "ell0 + 5",
+          "gap + 2"
+        ],
+        [
+          "ell0 + 1",
+          "3/4"
+        ],
+        [
+          "2*ell0 + 12",
+          "gap + 23/4"
+        ],
+        [
+          "2*ell0 + 8",
+          "9/2"
+        ]
+      ],
+      "normal_extension_norm_squared": "eta^(2*zeta)/(2*zeta)",
+      "source_boundary_term_needs_only_A_positive": true,
+      "weak_witness": "chi(q)*y^(-1/8), A=1/4",
+      "weak_radial_norm_squared": "65/16",
+      "auxiliary_weight_countercheck": "The witness is not in y^(-1/16) L2_b",
+      "identification": "Construct the sharp metric solution separately; identify in the original weak space by uniqueness",
+      "scope": "The witness is a function-space example, not a solution of the Einstein equations"
+    },
+    "interpolation": {
+      "cases": [
+        {
+          "mixed": false,
+          "leibniz_splits_checked": 2139,
+          "low_field_order": 3,
+          "low_background_order": 10,
+          "high_background_order": "p+5"
+        },
+        {
+          "mixed": true,
+          "leibniz_splits_checked": 2135,
+          "low_field_order": 4,
+          "low_background_order": 12,
+          "high_background_order": "p+6"
+        }
+      ],
+      "general_symbolic_exponent_bounds": true,
+      "conclusion": "Each coefficient-field product is bounded by low-background*high-field + high-background*low-field",
+      "assumptions": "Sobolev coefficient bounds and interpolation in the stated weighted spaces",
+      "new_high_norm_smallness_required": false
+    },
+    "traces": {
+      "fixed_radius_derivative": "rho0*(D0-D1)",
+      "boundary_derivative": "rho0*D0",
+      "logarithmic_coordinate_determinant": 1,
+      "half_line_models": [
+        {
+          "decay": "1/4",
+          "frequency": 0,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "17/8"
+        },
+        {
+          "decay": "1/4",
+          "frequency": 1,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "33/8"
+        },
+        {
+          "decay": "1/4",
+          "frequency": 3,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "161/8"
+        },
+        {
+          "decay": "1/4",
+          "frequency": 8,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "1041/8"
+        },
+        {
+          "decay": "1/2",
+          "frequency": 0,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "5/4"
+        },
+        {
+          "decay": "1/2",
+          "frequency": 1,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "9/4"
+        },
+        {
+          "decay": "1/2",
+          "frequency": 3,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "41/4"
+        },
+        {
+          "decay": "1/2",
+          "frequency": 8,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "261/4"
+        },
+        {
+          "decay": "1",
+          "frequency": 0,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "1"
+        },
+        {
+          "decay": "1",
+          "frequency": 1,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "3/2"
+        },
+        {
+          "decay": "1",
+          "frequency": 3,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "11/2"
+        },
+        {
+          "decay": "1",
+          "frequency": 8,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "33"
+        },
+        {
+          "decay": "2",
+          "frequency": 0,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "5/4"
+        },
+        {
+          "decay": "2",
+          "frequency": 1,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "3/2"
+        },
+        {
+          "decay": "2",
+          "frequency": 3,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "7/2"
+        },
+        {
+          "decay": "2",
+          "frequency": 8,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "69/4"
+        },
+        {
+          "decay": "4",
+          "frequency": 0,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "17/8"
+        },
+        {
+          "decay": "4",
+          "frequency": 1,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "9/4"
+        },
+        {
+          "decay": "4",
+          "frequency": 3,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "13/4"
+        },
+        {
+          "decay": "4",
+          "frequency": 8,
+          "value_at_origin_squared": "1",
+          "H1_norm_squared": "81/8"
+        }
+      ],
+      "parameter_orders": [
+        {
+          "parameter_derivatives": 0,
+          "tangential_order": 2,
+          "limiting_news_order": 4,
+          "finite_radius_convergence_order": 5
+        },
+        {
+          "parameter_derivatives": 0,
+          "tangential_order": 3,
+          "limiting_news_order": 5,
+          "finite_radius_convergence_order": 6
+        },
+        {
+          "parameter_derivatives": 0,
+          "tangential_order": 4,
+          "limiting_news_order": 6,
+          "finite_radius_convergence_order": 7
+        },
+        {
+          "parameter_derivatives": 1,
+          "tangential_order": 1,
+          "limiting_news_order": 4,
+          "finite_radius_convergence_order": 5
+        },
+        {
+          "parameter_derivatives": 1,
+          "tangential_order": 2,
+          "limiting_news_order": 5,
+          "finite_radius_convergence_order": 6
+        },
+        {
+          "parameter_derivatives": 1,
+          "tangential_order": 3,
+          "limiting_news_order": 6,
+          "finite_radius_convergence_order": 7
+        },
+        {
+          "parameter_derivatives": 1,
+          "tangential_order": 4,
+          "limiting_news_order": 7,
+          "finite_radius_convergence_order": 8
+        },
+        {
+          "parameter_derivatives": 2,
+          "tangential_order": 0,
+          "limiting_news_order": 4,
+          "finite_radius_convergence_order": 5
+        },
+        {
+          "parameter_derivatives": 2,
+          "tangential_order": 1,
+          "limiting_news_order": 5,
+          "finite_radius_convergence_order": 6
+        },
+        {
+          "parameter_derivatives": 2,
+          "tangential_order": 2,
+          "limiting_news_order": 6,
+          "finite_radius_convergence_order": 7
+        },
+        {
+          "parameter_derivatives": 2,
+          "tangential_order": 3,
+          "limiting_news_order": 7,
+          "finite_radius_convergence_order": 8
+        },
+        {
+          "parameter_derivatives": 2,
+          "tangential_order": 4,
+          "limiting_news_order": 8,
+          "finite_radius_convergence_order": 9
+        },
+        {
+          "parameter_derivatives": 3,
+          "tangential_order": 0,
+          "limiting_news_order": 5,
+          "finite_radius_convergence_order": 6
+        },
+        {
+          "parameter_derivatives": 3,
+          "tangential_order": 1,
+          "limiting_news_order": 6,
+          "finite_radius_convergence_order": 7
+        },
+        {
+          "parameter_derivatives": 3,
+          "tangential_order": 2,
+          "limiting_news_order": 7,
+          "finite_radius_convergence_order": 8
+        },
+        {
+          "parameter_derivatives": 3,
+          "tangential_order": 3,
+          "limiting_news_order": 8,
+          "finite_radius_convergence_order": 9
+        },
+        {
+          "parameter_derivatives": 3,
+          "tangential_order": 4,
+          "limiting_news_order": 9,
+          "finite_radius_convergence_order": 10
+        },
+        {
+          "parameter_derivatives": 4,
+          "tangential_order": 0,
+          "limiting_news_order": 6,
+          "finite_radius_convergence_order": 7
+        },
+        {
+          "parameter_derivatives": 4,
+          "tangential_order": 1,
+          "limiting_news_order": 7,
+          "finite_radius_convergence_order": 8
+        },
+        {
+          "parameter_derivatives": 4,
+          "tangential_order": 2,
+          "limiting_news_order": 8,
+          "finite_radius_convergence_order": 9
+        },
+        {
+          "parameter_derivatives": 4,
+          "tangential_order": 3,
+          "limiting_news_order": 9,
+          "finite_radius_convergence_order": 10
+        },
+        {
+          "parameter_derivatives": 4,
+          "tangential_order": 4,
+          "limiting_news_order": 10,
+          "finite_radius_convergence_order": 11
+        }
+      ],
+      "rate": "r^(-ellI) on fixed compact retarded-time windows",
+      "finite_radius_energy_flux_identified": false,
+      "scope": "Coordinate and norm identities; the trace estimate is a Hilbert-valued Sobolev argument in the proof"
+    }
+  },
+  "conical_uniform_energy": {
+    "geometry": {
+      "minimum_annulus_width": "5*eta/8+eta^2/16",
+      "target_points_inside_shrinking_annuli": true,
+      "characteristic_polynomial": "lambda^3*(lambda^2+2*b_n*lambda/b+d_nn/b)",
+      "positive_outgoing_matrices": 40,
+      "scope": "Exact principal identities and finite rational flux examples; the uniform cone bound is analytical"
+    },
+    "mass_jets": {
+      "inverse_derivative_orders": 6,
+      "coefficient_weight_allocations": 3008,
+      "schwarzschild_mixed_jets": 24,
+      "every_mass_commutator_scale_power_nonpositive": true,
+      "each_perturbation_factor_gains_at_least_one_inverse_scale": true,
+      "mass_difference_identity": true,
+      "scope": "General chain-rule identities through six derivatives and exact reference jets; all-order product estimates are written in the proof"
+    },
+    "comparison": {
+      "low_majorants_satisfy_comparison_equations": true,
+      "high_comparison_system_solved_exactly": true,
+      "induced_scalar_first_order": "exp(C*t)*C*t*eps*A0/L",
+      "scope": "Comparison equations verify the scaling of the analytic Gronwall argument, not the constants of the PDE estimates"
+    },
+    "tails": {
+      "conormal_cutoff_orders": 7,
+      "logarithmic_tail_checks": [
+        {
+          "parameter_order": 0,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 1,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 2,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 3,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 4,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 5,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        },
+        {
+          "parameter_order": 6,
+          "exact_antiderivative": true,
+          "vanishing_tail": true
+        }
+      ],
+      "metric_norm_rate": "R^(ell0-1)*(1+log(R))^J",
+      "residual_extension_orders": [
+        31,
+        38
+      ],
+      "fixed_high_extension_orders": [
+        3300,
+        4824
+      ],
+      "scope": "Exact cutoff and majorant formulas; constants and conical solution estimates are analytical"
+    }
+  },
+  "nonlinear_exterior_iteration": {
+    "matter": {
+      "trace_reversed_stress_hessian": true,
+      "full_complex_potential_hessian": true,
+      "scalar_force_hessian_vanishes_at_zero_field": true,
+      "stress_hessian_retains_two_scalar_factors": true,
+      "scalar_differential_order_at_most_two": true
+    },
+    "inverse_metric": {
+      "cases": [
+        {
+          "seed": 1,
+          "inverse_identity_to_mixed_second_order": true,
+          "both_matrix_orders_needed": true,
+          "scalar_mixed_block_identity": true
+        },
+        {
+          "seed": 3,
+          "inverse_identity_to_mixed_second_order": true,
+          "both_matrix_orders_needed": true,
+          "scalar_mixed_block_identity": true
+        },
+        {
+          "seed": 7,
+          "inverse_identity_to_mixed_second_order": true,
+          "both_matrix_orders_needed": true,
+          "scalar_mixed_block_identity": true
+        }
+      ],
+      "differentiated_metric_directions_required": false,
+      "scope": "Finite rational matrices verify instances of the inverse-variation identities proved analytically"
+    },
+    "boundary": {
+      "boundary_value_and_two_variations": true,
+      "only_11_boundary_output": true,
+      "mass_loss_coefficient": "-1/(32*pi)",
+      "correct_equation_scaling": "2*y*rho^(-3) = 2*q*r^2",
+      "nonlinear_scaling_fixed_by_integrated_linearization": true,
+      "scope": "Boundary derivatives assume the leading linearized matrix derived in the reference; the scaling is reconstructed from its defining linearization"
+    }
+  },
+  "bondi_clock_calibration": {
+    "sphere": {
+      "axisymmetric_checks": [
+        {
+          "ell": 0,
+          "norm_without_2pi": "0"
+        },
+        {
+          "ell": 1,
+          "norm_without_2pi": "0"
+        },
+        {
+          "ell": 2,
+          "norm_without_2pi": "24/5"
+        },
+        {
+          "ell": 3,
+          "norm_without_2pi": "120/7"
+        },
+        {
+          "ell": 4,
+          "norm_without_2pi": "40"
+        },
+        {
+          "ell": 5,
+          "norm_without_2pi": "840/11"
+        },
+        {
+          "ell": 6,
+          "norm_without_2pi": "1680/13"
+        },
+        {
+          "ell": 7,
+          "norm_without_2pi": "1008/5"
+        },
+        {
+          "ell": 8,
+          "norm_without_2pi": "5040/17"
+        },
+        {
+          "ell": 9,
+          "norm_without_2pi": "7920/19"
+        },
+        {
+          "ell": 10,
+          "norm_without_2pi": "3960/7"
+        }
+      ],
+      "kernel_degrees": [
+        0,
+        1
+      ],
+      "inversion_even_kernel": [
+        0
+      ],
+      "scope": "Exact checks of the sphere identity and parity; the all-m statement follows from the Bochner identity in the proof"
+    },
+    "jets": {
+      "news_jets_through_cubic": true,
+      "endpoint_total_derivatives": true,
+      "normalized_efficiency_change": "delta_b4/e2^2-3*e3*delta_b3/(2*e2^3)",
+      "finite_example": {
+        "delta_b3": "-2",
+        "delta_b4": "-3",
+        "delta_kappa": "3/8"
+      }
+    },
+    "composition": {
+      "chain_rule": [
+        {
+          "order": 0,
+          "mixed_terms": 1,
+          "coefficients": {
+            "0,0": "1"
+          }
+        },
+        {
+          "order": 1,
+          "mixed_terms": 2,
+          "coefficients": {
+            "0,1": "-t1",
+            "1,0": "1"
+          }
+        },
+        {
+          "order": 2,
+          "mixed_terms": 4,
+          "coefficients": {
+            "0,1": "-t2",
+            "0,2": "t1**2",
+            "1,1": "-2*t1",
+            "2,0": "1"
+          }
+        },
+        {
+          "order": 3,
+          "mixed_terms": 7,
+          "coefficients": {
+            "0,1": "-t3",
+            "0,2": "3*t1*t2",
+            "0,3": "-t1**3",
+            "1,1": "-3*t2",
+            "1,2": "3*t1**2",
+            "2,1": "-3*t1",
+            "3,0": "1"
+          }
+        },
+        {
+          "order": 4,
+          "mixed_terms": 11,
+          "coefficients": {
+            "0,1": "-t4",
+            "0,2": "4*t1*t3 + 3*t2**2",
+            "0,3": "-6*t1**2*t2",
+            "0,4": "t1**4",
+            "1,1": "-4*t3",
+            "1,2": "12*t1*t2",
+            "1,3": "-4*t1**3",
+            "2,1": "-6*t2",
+            "2,2": "6*t1**2",
+            "3,1": "-4*t1",
+            "4,0": "1"
+          }
+        }
+      ],
+      "sufficient_trace_order": 10,
+      "available_order": 48,
+      "scope": "The chain rule preserves four parameter derivatives with mixed time regularity; the common PDE bounds are separate"
+    }
+  },
+  "individual_quadrupole_gain": {
+    "clock": {
+      "first_order_projection_zero": true,
+      "second_order_clock_invariant": true,
+      "cubic_projected_clock_term": "-tau1*Pi*N2_prime",
+      "mass_log_correction_has_zero_quadrupole": true,
+      "scope": "Constant clock shift and a fixed angular projection; no general supertranslation invariance is claimed"
+    },
+    "constants": {
+      "integral_remainder_powers": 7,
+      "third_derivative_factor": "1/6",
+      "amplitude_cap": "B0*epsilon^3/(2*C3)",
+      "sufficient_energy_cap": "m*B0^2*epsilon^6/(8*C3^2)",
+      "radiation_lower_coefficient": "B0^2/(16*M^2)",
+      "gain_lower_energy": "2*delta_L^2/c_rad",
+      "additional_requirement": "Both inverse branches remain inside the physical parameter and energy neighborhoods"
+    },
+    "branches": {
+      "cases": 36,
+      "individual_branches": 72,
+      "records": [
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 64,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 80,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 96,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 128,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 160,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "1",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/8",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/16",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        },
+        {
+          "carrier": 192,
+          "clock_independent_energy_model": true,
+          "mass_parameter": "epsilon^(-1)",
+          "signed_energy_amplitude": "epsilon^3/32",
+          "both_branches_checked": true,
+          "unequal_amplitude_magnitudes": true
+        }
+      ],
+      "model": "N(a)=(delta*a-a^2, a^2-epsilon^(-3)*a^3)",
+      "energy_model": "E(a)=(a/(1-lambda*a))^2",
+      "toy_scaling": "epsilon=L^(-2), delta=2^(-L)",
+      "scope": "Exact rational norm inequalities, not physical carrier or amplitude thresholds"
+    },
+    "limits": {
+      "lower_to_upper_energy_ratio_tends_to_zero": true,
+      "exact_sequence": "E_L=c2*epsilon_L^6",
+      "outgoing_fraction_upper": "C*delta_L^2+C*c2*epsilon_L^2",
+      "initial_norm_upper": "C*sqrt(c2)*epsilon_L^2",
+      "available_selected_phases": [
+        "0",
+        "pi/2"
+      ],
+      "opposite_sign_phase_selection_needed": false,
+      "scope": "Limits for each fixed finite P,N; no uniform late-time limit is implied"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "status": "exterior_threshold_law_checked_stellar_continuation_open",
+  "digits": 50,
+  "checks": {
+    "growing_static_Zerilli_solution": true,
+    "static_master_coefficient": true,
+    "outgoing_free_equation": true,
+    "outgoing_threshold_coefficient": true,
+    "free_Wronskian": true,
+    "kernel_zero_frequency_limit": true,
+    "Zerilli_tail_inequality": true,
+    "regular_Bessel_bound": true,
+    "kernel_region_bounds": [
+      [
+        "8/5",
+        "72",
+        "36"
+      ],
+      [
+        "16/3",
+        "192",
+        "96"
+      ]
+    ],
+    "tensor_harmonic_norm": true,
+    "Bondi_flux_factor": true,
+    "independent_STF_flux_factor": true,
+    "noncompact_source_reconstruction": true,
+    "regular_Einstein_constraints": {
+      "published_equations": 3,
+      "phase_limit": true,
+      "scope": "Regular identities only; an independent six-dimensional coupled system remains to be constructed."
+    },
+    "fixed_classical_detuning": true
+  },
+  "exterior": {
+    "analytic_radius": "1e6",
+    "mass_upper": "5.66",
+    "first_moment_upper": 0.0021827049618501214,
+    "weighted_kernel_constant": 200,
+    "contraction_upper": 0.43654099237002425,
+    "verified_contraction_bound": ".437",
+    "radial_solves": 0,
+    "quadrature_points": 0
+  },
+  "conditional_prediction": {
+    "static_multipole_interval": [
+      -2.943035329082899e-05,
+      -1.4506111550346908e-05
+    ],
+    "conditional_outgoing_amplitude_limit": [
+      -1.9620235527219325e-05,
+      -9.670741033564605e-06
+    ],
+    "conditional_mean_power_limit": [
+      1.4028484820740533e-11,
+      5.7743046321533906e-11
+    ],
+    "amplitude_normalization": "Aout/(E_rad eta nu^2)",
+    "power_normalization": "mean_power/((E_rad eta)^2 nu^6)",
+    "assumptions": [
+      "a real P2 harmonic with prescribed peak amplitude",
+      "outgoing solutions converge to the certified static response on a fixed matching sphere",
+      "the effective exterior source converges pointwise and has a uniform exponential bound"
+    ],
+    "scope": "Conditional spectral prediction. Stellar continuation, finite-time preparation and wave realization unverified.",
+    "overlap_sha256": "c027996cff05f1a93d7d3ed82b31b98fdd354e1ff29c23a4d97c2f8e4768b621",
+    "inherited_background_sha256": {
+      "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+      "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+      "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+      "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+    }
+  },
+  "literature": {
+    "gr-qc-0502028v1": {
+      "url": "https://arxiv.org/src/gr-qc/0502028v1",
+      "archive_sha256": "914644d3029235ef0e8c112619c08f45af282e14c1ff4042e4473595832ddbaf"
+    },
+    "0908.4292v2": {
+      "url": "https://arxiv.org/src/0908.4292v2",
+      "archive_sha256": "96aa2478bcca78b0200d1a5963d41cba182fb5ed6ca855f5978cb093abae8e2e"
+    }
+  },
+  "elapsed_seconds": 2.5760033000005933
+}

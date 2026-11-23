@@ -1,0 +1,133 @@
+{
+  "status": "azimuth_orbit_ball_verified",
+  "radius": 0.0005,
+  "contraction_upper": 0.02764190606417116,
+  "drive_upper": 3.719578252509951e-05,
+  "ball_image_upper": 5.101673555718508e-05,
+  "scale": [
+    "1",
+    ".2",
+    ".001"
+  ],
+  "cells": 256,
+  "background_piece_evaluations": 1311,
+  "green_component_bounds": [
+    [
+      1.0411678686656423,
+      1.0156526801969734,
+      0.06501281811280449
+    ],
+    [
+      0.4840269522137732,
+      1.1123595166328304,
+      0.01566191005462341
+    ],
+    [
+      0.32247879939072843,
+      0.9004292661978918,
+      0.9908753587126614
+    ]
+  ],
+  "residual_component_bounds": [
+    1.7995847712508401e-07,
+    2.6996904213668428e-05,
+    1.2947084580230023e-05
+  ],
+  "linearization_difference_bounds": [
+    [
+      1.0006668062094618e-06,
+      7.291835578841668e-07,
+      4.1554778620922736e-08
+    ],
+    [
+      0.009614028242330633,
+      1.0908764984952318e-05,
+      0.00034248761009056345
+    ],
+    [
+      0.009072871925092528,
+      0.009756652503184698,
+      8.741984649734491e-06
+    ]
+  ],
+  "boundary_lift_bounds": [
+    6.5736340483756766e-15,
+    4.28428089559604e-15,
+    3.0092001738711223e-15
+  ],
+  "reference_boundary_denominator": [
+    -0.9913516691511938,
+    -0.9913516691511935
+  ],
+  "maximum_inverse_precondition_defect": 0.019710175713465436,
+  "physical_error_bounds": [
+    2.8779647759827266e-05,
+    6.130315724403779e-06,
+    3.801235013521649e-08
+  ],
+  "scaled_error_bounds": [
+    2.8779647759827266e-05,
+    3.06515786220189e-05,
+    3.801235013521649e-05
+  ],
+  "elapsed_seconds": 16.955909899999824,
+  "branch": {
+    "status": "single_outward_resonant_half_orbit",
+    "radial_extent": [
+      15.688052388324433,
+      16.287124119387126
+    ],
+    "energy_fraction": [
+      0.611070942419308,
+      0.6115578497858846
+    ],
+    "first_cell_acceleration_lower": 0.016122139934588258,
+    "last_cell_acceleration_upper": -0.0076029287116056886,
+    "interior_velocity_lower": 0.000496370021797555,
+    "reference_weight_lower": 0.9999999929663327,
+    "metric_f_lower": 0.5413645601910272,
+    "weight_error_upper": 3.801235013521649e-08,
+    "normalized_measure_error_upper": 7.6024700270433e-08,
+    "relative_optics_sha256": "3c2c0ffd4df4c366778ccec377a8e2f0bba4e53ccaf4970305dc0dce07c9d201"
+  },
+  "digits": 50,
+  "input_sha256": {
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+  },
+  "reference_sha256": "96c1355c0349cdc199b7b6220f3ed4bc28c2cce93381fd9d4f08b448ac8d91e2",
+  "checks": {
+    "algebra": {
+      "exact_boundary_inverse_models": 9,
+      "exact_first_integral": true
+    },
+    "implementation": {
+      "ode_derivative_checks": 108,
+      "independent_flow_checks": 12,
+      "maximum_independent_flow_difference": 1.5994150448506161e-15,
+      "rational_inverse_components": 72
+    }
+  },
+  "total_background_piece_evaluations": 1791,
+  "scope": "Boundary correction for the azimuth orbit; tidal observation and radiation are not certified.",
+  "observation_budget": {
+    "iterated_observation_sha256": "9624abb1fc9db4e2b0c9a1e9f4b439d77f909f59dce8870949c8c4a1ee72d171",
+    "weight_contribution_upper": 3.097460231526016e-11,
+    "field_and_weight_contribution_upper": 4.594372566065949e-08,
+    "remaining_terms": [
+      "trial_amplitude_geometry_error",
+      "reference_quadrature_error"
+    ]
+  },
+  "dependency_sha256": {
+    "research\\stable-light-rings\\check_barrier_certificate.py": "aff3c1718bc3402bc24fd910458ab3ba67b43b3b59ef742da75b9d1f69cd2c7c",
+    "research\\stable-light-rings\\check_background_defect.py": "8a2fc75b95cd9fdb212f8cf439cc9d3f50eccacfe15eae7bb0895f0407564ef5",
+    "research\\stable-light-rings\\check_polar_coercivity.py": "f9f42d94c43004156e61a37d9127318e2dcdfd537b28f75229637731b0f384f4",
+    "research\\stable-light-rings\\check_polar_transverse.py": "b43cc9d9c77ff1273c31c3eff1662e58fe902361ab7ecd4a51052e59e7ca0b39",
+    "research\\stable-light-rings\\check_finite_static_inverse.py": "9162378dd350ca12c99467758ed36594474b3756abde0fc3abf5a4670ea8282d",
+    "research\\stable-light-rings\\check_asymptotic_exterior.py": "8d1ac65c371686ad7b8ba2172199921e2f8a3900c73ab6e29ac18327a0f0647e",
+    "research\\stable-light-rings\\check_relative_optics.py": "cf88f284aa2374efcfa146fb1d9ae42fdb7e225b1b37f8767f4402f0df2d3817"
+  }
+}

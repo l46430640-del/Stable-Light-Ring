@@ -1,0 +1,614 @@
+{
+  "status": "floating_slow_static_multipole_screen",
+  "algebra": {
+    "mixed_stress_cancellation": true,
+    "plane_angular_projection": true,
+    "general_forcing_tt_scalar_mixed": true,
+    "homogeneous_angular_identity": true,
+    "null_hamiltonian_work": true,
+    "coordinate_stress_trace_and_divergence_checks": 10
+  },
+  "quadrupole_roots": [
+    {
+      "xi": 0.9968893515448024,
+      "energy": 0.0011609140328628176,
+      "action_per_L": 0.00022596443895529512,
+      "Omega_r": 0.008517565971498544,
+      "Omega_phi": 0.034070263887035254,
+      "ratio": 4.000000000122227,
+      "delta_2_minus_8": 2.082153893745442e-12,
+      "delta_4_minus_17": -0.008517565967334245,
+      "turning_points": [
+        15.623581548080411,
+        16.509574115621394
+      ],
+      "points": 2976
+    },
+    {
+      "xi": 0.9968893515394713,
+      "energy": 0.0011609140328628165,
+      "action_per_L": 0.00022596443895346726,
+      "Omega_r": 0.00851756597133976,
+      "Omega_phi": 0.03407026388703522,
+      "ratio": 4.000000000196791,
+      "delta_2_minus_8": 3.3523600562190836e-12,
+      "delta_4_minus_17": -0.008517565964635043,
+      "turning_points": [
+        15.623581548080923,
+        16.509574115611258
+      ],
+      "points": 3488
+    }
+  ],
+  "trials": [
+    {
+      "degree": 4,
+      "tolerance": 1e-06,
+      "inner": 0.002,
+      "outer": 40.0,
+      "nodes": 982,
+      "residuals": {
+        "radial_points": 982,
+        "verification_points": 981,
+        "max_rms_residual": 9.60210843743032e-07,
+        "kinematic_defect": 2.3670150464671913e-07,
+        "field_reconstruction_difference": 3.2086372656059403e-09,
+        "independent_equation_residuals": {
+          "tt": 1.9751785767560397e-08,
+          "rr": 5.4034678998019466e-08,
+          "rtheta": 3.8996283354814167e-10,
+          "angular_trace": 1.0357258549224585e-08,
+          "scalar": 2.7223756071416178e-08
+        },
+        "angular_constraint_difference": 3.6737605735304157e-09,
+        "inner_c_plus_v": -1.1250060871227474e-24,
+        "reconstructed_boundary_residual": 1.7763568394002505e-15,
+        "boundary_residual": 8.881784197001252e-16
+      },
+      "overlap": [
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.819364892900135e-13,
+          "density_only_overlap": 3.5393589926675704e-12,
+          "angular_constraint_overlap": 9.639043135538281e-13,
+          "absolute_integral": 0.24034617680286186,
+          "peak_metric": 0.17091277579546738,
+          "Omega_r": 0.008016559356839034,
+          "Omega_phi": 0.03407037726888231,
+          "beat_frequency": 9.26566169777257e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.757485653131047e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5064,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.849185327694233e-13,
+          "density_only_overlap": 3.540593219817708e-12,
+          "angular_constraint_overlap": 9.668858688790343e-13,
+          "absolute_integral": 0.24029568625435765,
+          "peak_metric": 0.17091278376147562,
+          "Omega_r": 0.008016559357013764,
+          "Omega_phi": 0.034070377268882276,
+          "beat_frequency": 6.295106135995326e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.78711816682691e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5720,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "reference_source_reciprocity": [
+        {
+          "predicted": -1015.6597482909893,
+          "extracted": -1015.6601046283462,
+          "relative_difference": 3.5084311689193015e-07,
+          "quadrature_points": 8656,
+          "order": 8,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-004-tol-2e-07.npz",
+          "input_sha256": "9ecbbe33987bca414e86ccb2272e20a9996c5605ee4dd60bc4887da876f36ec9"
+        },
+        {
+          "predicted": -1015.6600782549655,
+          "extracted": -1015.6601046283462,
+          "relative_difference": 2.5966738870231154e-08,
+          "quadrature_points": 12984,
+          "order": 12,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-004-tol-2e-07.npz",
+          "input_sha256": "9ecbbe33987bca414e86ccb2272e20a9996c5605ee4dd60bc4887da876f36ec9"
+        }
+      ],
+      "field_path": "slow-tide-l4-tol-1e-06-R40.npz",
+      "field_sha256": "d8423edb4648b3844a5daf4d36402bda4abae470a094cad82206e30ee3f66fb4"
+    },
+    {
+      "degree": 4,
+      "tolerance": 2e-07,
+      "inner": 0.002,
+      "outer": 40.0,
+      "nodes": 1015,
+      "residuals": {
+        "radial_points": 1015,
+        "verification_points": 1014,
+        "max_rms_residual": 1.9496990915632678e-07,
+        "kinematic_defect": 1.3536850240747356e-07,
+        "field_reconstruction_difference": 1.236335721299664e-09,
+        "independent_equation_residuals": {
+          "tt": 6.813414350493517e-09,
+          "rr": 2.17205907607251e-08,
+          "rtheta": 1.7593044065567164e-10,
+          "angular_trace": 3.9330275042466775e-09,
+          "scalar": 4.818841131445707e-09
+        },
+        "angular_constraint_difference": 4.507596518266155e-10,
+        "inner_c_plus_v": 1.4862000271258641e-24,
+        "reconstructed_boundary_residual": 2.6645352591003757e-15,
+        "boundary_residual": 1.8729586051823054e-24
+      },
+      "overlap": [
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.819364347243435e-13,
+          "density_only_overlap": 3.539359284570757e-12,
+          "angular_constraint_overlap": 9.639057390980366e-13,
+          "absolute_integral": 0.24034617668015934,
+          "peak_metric": 0.17091277573611655,
+          "Omega_r": 0.008016559356839034,
+          "Omega_phi": 0.03407037726888231,
+          "beat_frequency": 9.26566169777257e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.757485110912941e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5064,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.849119553883834e-13,
+          "density_only_overlap": 3.5405929510364788e-12,
+          "angular_constraint_overlap": 9.668838899137272e-13,
+          "absolute_integral": 0.24029568613168034,
+          "peak_metric": 0.1709127837021248,
+          "Omega_r": 0.008016559357013764,
+          "Omega_phi": 0.034070377268882276,
+          "beat_frequency": 6.295106135995326e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.787052807507002e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5720,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "reference_source_reciprocity": [
+        {
+          "predicted": -1015.6597477724094,
+          "extracted": -1015.6601046283462,
+          "relative_difference": 3.51353701022461e-07,
+          "quadrature_points": 8656,
+          "order": 8,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-004-tol-2e-07.npz",
+          "input_sha256": "9ecbbe33987bca414e86ccb2272e20a9996c5605ee4dd60bc4887da876f36ec9"
+        },
+        {
+          "predicted": -1015.6600777363853,
+          "extracted": -1015.6601046283462,
+          "relative_difference": 2.6477323222806604e-08,
+          "quadrature_points": 12984,
+          "order": 12,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-004-tol-2e-07.npz",
+          "input_sha256": "9ecbbe33987bca414e86ccb2272e20a9996c5605ee4dd60bc4887da876f36ec9"
+        }
+      ],
+      "field_path": "slow-tide-l4-tol-2e-07-R40.npz",
+      "field_sha256": "edf514f07edfb2df6c1548dd6c06c98237b75bf368f57a44078b2b5483ebc6b9"
+    },
+    {
+      "degree": 4,
+      "tolerance": 2e-07,
+      "inner": 0.001,
+      "outer": 38.0,
+      "nodes": 1016,
+      "residuals": {
+        "radial_points": 1016,
+        "verification_points": 1015,
+        "max_rms_residual": 1.9976396791632723e-07,
+        "kinematic_defect": 6.898578205905004e-08,
+        "field_reconstruction_difference": 1.1367421864916238e-09,
+        "independent_equation_residuals": {
+          "tt": 2.4639531447693194e-09,
+          "rr": 2.009798259571724e-08,
+          "rtheta": 1.5418353179251087e-10,
+          "angular_trace": 3.888475861181591e-09,
+          "scalar": 4.818841140986686e-09
+        },
+        "angular_constraint_difference": 3.37613992318353e-10,
+        "inner_c_plus_v": 6.763364565294525e-26,
+        "reconstructed_boundary_residual": 8.881784197001252e-16,
+        "boundary_residual": 7.367679887210816e-26
+      },
+      "overlap": [
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.818968012796636e-13,
+          "density_only_overlap": 3.539350100978042e-12,
+          "angular_constraint_overlap": 9.825192688519419e-13,
+          "absolute_integral": 0.24034616627803612,
+          "peak_metric": 0.1709127757321016,
+          "Omega_r": 0.008016559356838766,
+          "Omega_phi": 0.03407037726888232,
+          "beat_frequency": 9.27023077905844e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.757091274069046e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5072,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9985787739611784,
+          "k": 4,
+          "j": 17,
+          "overlap": 9.848944576562602e-13,
+          "density_only_overlap": 3.5405895880066818e-12,
+          "angular_constraint_overlap": 9.855126697350114e-13,
+          "absolute_integral": 0.24029567572955557,
+          "peak_metric": 0.17091278369810983,
+          "Omega_r": 0.008016559357013607,
+          "Omega_phi": 0.03407037726888226,
+          "beat_frequency": 6.297717039587362e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -9.786878932850121e-09,
+          "angular_factor": 0.15380859374999997,
+          "quadrature_points_including_gap": 5728,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "field_path": "slow-tide-l4-tol-2e-07-R38.npz",
+      "field_sha256": "06e1e90fd07142388f705d0bf346ff2f34bc3900af7a943c4c9b60d1b8bcde63"
+    },
+    {
+      "degree": 2,
+      "tolerance": 1e-06,
+      "inner": 0.002,
+      "outer": 40.0,
+      "nodes": 1031,
+      "residuals": {
+        "radial_points": 1031,
+        "verification_points": 1030,
+        "max_rms_residual": 9.964537520620914e-07,
+        "kinematic_defect": 1.357053364681171e-06,
+        "field_reconstruction_difference": 1.4865948638753679e-08,
+        "independent_equation_residuals": {
+          "tt": 5.0353370025161855e-08,
+          "rr": 2.5379600514985413e-07,
+          "rtheta": 2.2779678930877697e-09,
+          "angular_trace": 3.281059403879354e-08,
+          "scalar": 5.1924531038612926e-08
+        },
+        "angular_constraint_difference": 1.7828618248394434e-08,
+        "inner_c_plus_v": -2.863889589937088e-16,
+        "reconstructed_boundary_residual": 3.3306690738754696e-16,
+        "boundary_residual": 1.1102230246251565e-16
+      },
+      "overlap": [
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.21519966496576e-07,
+          "density_only_overlap": 2.4806906358379677e-07,
+          "angular_constraint_overlap": 5.215212591246469e-07,
+          "absolute_integral": 0.845084520047241,
+          "peak_metric": 0.4751140327463753,
+          "Omega_r": 0.008517565971492653,
+          "Omega_phi": 0.03407026388703518,
+          "beat_frequency": 2.1291320999176748e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.728210555639196e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 4976,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.21519965164171e-07,
+          "density_only_overlap": 2.480690635868629e-07,
+          "angular_constraint_overlap": 5.215212578282332e-07,
+          "absolute_integral": 0.8450847064931815,
+          "peak_metric": 0.47511403661649065,
+          "Omega_r": 0.00851756597134341,
+          "Omega_phi": 0.03407026388703521,
+          "beat_frequency": 3.3231502060102634e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.7282105461141786e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 5624,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "reference_source_reciprocity": [
+        {
+          "predicted": 33.800679597931946,
+          "extracted": 33.80069255614363,
+          "relative_difference": 3.8337118868359e-07,
+          "quadrature_points": 8656,
+          "order": 8,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        },
+        {
+          "predicted": 33.80069196307509,
+          "extracted": 33.80069255614363,
+          "relative_difference": 1.75460470597244e-08,
+          "quadrature_points": 12984,
+          "order": 12,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        }
+      ],
+      "field_path": "slow-tide-l2-tol-1e-06-R40.npz",
+      "field_sha256": "eb7c0a88630412501d6e03a0c9c59107fc37fac1526d88e1d4e235bc530189f3"
+    },
+    {
+      "degree": 2,
+      "tolerance": 2e-07,
+      "inner": 0.002,
+      "outer": 40.0,
+      "nodes": 1161,
+      "residuals": {
+        "radial_points": 1161,
+        "verification_points": 1160,
+        "max_rms_residual": 1.9957164492602492e-07,
+        "kinematic_defect": 1.698286564710827e-07,
+        "field_reconstruction_difference": 2.036359740553717e-09,
+        "independent_equation_residuals": {
+          "tt": 6.5745745991475674e-09,
+          "rr": 3.259950977184075e-08,
+          "rtheta": 1.892985410076702e-10,
+          "angular_trace": 6.221812428809269e-09,
+          "scalar": 1.32201899327895e-08
+        },
+        "angular_constraint_difference": 2.911733187893617e-09,
+        "inner_c_plus_v": -2.863889716454191e-16,
+        "reconstructed_boundary_residual": 2.7166283389269453e-16,
+        "boundary_residual": 3.3881317890172014e-21
+      },
+      "overlap": [
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199687347937e-07,
+          "density_only_overlap": 2.4806906415500043e-07,
+          "angular_constraint_overlap": 5.215212614118674e-07,
+          "absolute_integral": 0.8450845205594272,
+          "peak_metric": 0.47511403299919497,
+          "Omega_r": 0.008517565971492653,
+          "Omega_phi": 0.03407026388703518,
+          "beat_frequency": 2.1291320999176748e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.7282105716396317e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 4976,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199674055809e-07,
+          "density_only_overlap": 2.480690641543888e-07,
+          "angular_constraint_overlap": 5.215212601003208e-07,
+          "absolute_integral": 0.8450847070053678,
+          "peak_metric": 0.47511403686931025,
+          "Omega_r": 0.00851756597134341,
+          "Omega_phi": 0.03407026388703521,
+          "beat_frequency": 3.3231502060102634e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.728210562137435e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 5624,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "reference_source_reciprocity": [
+        {
+          "predicted": 33.8006796184201,
+          "extracted": 33.80069255614363,
+          "relative_difference": 3.8276504277234835e-07,
+          "quadrature_points": 8656,
+          "order": 8,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        },
+        {
+          "predicted": 33.80069198356324,
+          "extracted": 33.80069255614363,
+          "relative_difference": 1.693990114848276e-08,
+          "quadrature_points": 12984,
+          "order": 12,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        }
+      ],
+      "field_path": "slow-tide-l2-tol-2e-07-R40.npz",
+      "field_sha256": "4df355651140ceb26d17d41019c15ce063a83fac67b17bef759d65784b4586c1"
+    },
+    {
+      "degree": 2,
+      "tolerance": 2e-09,
+      "inner": 0.002,
+      "outer": 40.0,
+      "nodes": 2848,
+      "residuals": {
+        "radial_points": 2848,
+        "verification_points": 2847,
+        "max_rms_residual": 1.9994339717888824e-09,
+        "kinematic_defect": 2.145936428554762e-09,
+        "field_reconstruction_difference": 2.822603835503281e-11,
+        "independent_equation_residuals": {
+          "tt": 6.18458412004143e-09,
+          "rr": 6.245671276767937e-09,
+          "rtheta": 7.27782244386912e-12,
+          "angular_trace": 6.221812423370106e-09,
+          "scalar": 1.604332564977179e-10
+        },
+        "angular_constraint_difference": 2.69228250804332e-11,
+        "inner_c_plus_v": -2.8638897149848176e-16,
+        "reconstructed_boundary_residual": 6.569708443651555e-16,
+        "boundary_residual": 3.3881317890172014e-21
+      },
+      "overlap": [
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199665694465e-07,
+          "density_only_overlap": 2.480690638483009e-07,
+          "angular_constraint_overlap": 5.215201825823298e-07,
+          "absolute_integral": 0.8450830409831698,
+          "peak_metric": 0.4751140328676887,
+          "Omega_r": 0.008517565971447958,
+          "Omega_phi": 0.03407026388703519,
+          "beat_frequency": 2.4867181807908963e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.7282105561601276e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 7312,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199709902551e-07,
+          "density_only_overlap": 2.480690646370354e-07,
+          "angular_constraint_overlap": 5.215201870209613e-07,
+          "absolute_integral": 0.8450830472601438,
+          "peak_metric": 0.475114036737804,
+          "Omega_r": 0.008517565971573746,
+          "Omega_phi": 0.03407026388703518,
+          "beat_frequency": 1.480383642872938e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.728210587763339e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 7960,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "reference_source_reciprocity": [
+        {
+          "predicted": 33.80069240106658,
+          "extracted": 33.80069255614363,
+          "relative_difference": 4.587984547832491e-09,
+          "quadrature_points": 10664,
+          "order": 8,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        },
+        {
+          "predicted": 33.80069246562506,
+          "extracted": 33.80069255614363,
+          "relative_difference": 2.678009258794134e-09,
+          "quadrature_points": 15996,
+          "order": 12,
+          "input_path": "research\\stable-light-rings\\data\\solitonic-screen\\polar-residual-fields\\degree-002-tol-2e-07.npz",
+          "input_sha256": "6f22f687935340be3770d675ab83ac05d9998c350c0dd96288c5484fb193f58a"
+        }
+      ],
+      "field_path": "slow-tide-l2-tol-2e-09-R40.npz",
+      "field_sha256": "c0da0aef50a0db8a296733a3d1d4741b6ee710ea5abd798123457d1ef3cc0304"
+    },
+    {
+      "degree": 2,
+      "tolerance": 2e-09,
+      "inner": 0.001,
+      "outer": 38.0,
+      "nodes": 2861,
+      "residuals": {
+        "radial_points": 2861,
+        "verification_points": 2860,
+        "max_rms_residual": 1.9993859559732544e-09,
+        "kinematic_defect": 2.341332128175111e-09,
+        "field_reconstruction_difference": 2.3000848499584413e-11,
+        "independent_equation_residuals": {
+          "tt": 5.65445444018165e-09,
+          "rr": 5.704151170365286e-09,
+          "rtheta": 5.950429097493259e-12,
+          "angular_trace": 5.684772557855051e-09,
+          "scalar": 1.604335657121774e-10
+        },
+        "angular_constraint_difference": 2.5883017951144893e-11,
+        "inner_c_plus_v": -1.7899311780687715e-17,
+        "reconstructed_boundary_residual": 1.55374207339019e-15,
+        "boundary_residual": 1.1102230246251565e-16
+      },
+      "overlap": [
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199665735588e-07,
+          "density_only_overlap": 2.480690638776654e-07,
+          "angular_constraint_overlap": 5.215201860809138e-07,
+          "absolute_integral": 0.8450823611767319,
+          "peak_metric": 0.47511403286751164,
+          "Omega_r": 0.008517565971447757,
+          "Omega_phi": 0.03407026388703519,
+          "beat_frequency": 2.4883267594867667e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.728210556189526e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 7336,
+          "subdivisions": 64,
+          "quadrature_order": 8
+        },
+        {
+          "xi": 0.9968893515394713,
+          "k": 2,
+          "j": 8,
+          "overlap": 5.215199710348882e-07,
+          "density_only_overlap": 2.4806906467510963e-07,
+          "angular_constraint_overlap": 5.215201905427853e-07,
+          "absolute_integral": 0.8450823674536871,
+          "peak_metric": 0.4751140367376269,
+          "Omega_r": 0.008517565971573464,
+          "Omega_phi": 0.034070263887035185,
+          "beat_frequency": 1.4826664761120563e-12,
+          "static_delta_multipole_diagnostic_per_energy_eta": -3.728210588082409e-05,
+          "angular_factor": 0.28124999999999994,
+          "quadrature_points_including_gap": 7984,
+          "subdivisions": 128,
+          "quadrature_order": 8
+        }
+      ],
+      "field_path": "slow-tide-l2-tol-2e-09-R38.npz",
+      "field_sha256": "8893c8cf0ee93dac8aec3b60a88965272d4380f2a2bbe1aa7d944ad53072935c"
+    }
+  ],
+  "seconds": 3.627569799980847,
+  "root_orbit_evaluations": 18,
+  "root_maximum_points_including_gap": 3888,
+  "input_sha256": {
+    "research\\stable-light-rings\\data\\s08a06\\background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "research\\stable-light-rings\\polar_static.py": "80dcb406edb7c74e9199f897e5e62af3f563b371cb130bc3ddc03ca88dbf9c3e",
+    "research\\stable-light-rings\\finite_width_axial.py": "c699a9736ddd67f45d448862d77cec97f77441e5884efeba3811f5828eeb5eb5",
+    "research\\stable-light-rings\\trapped_axial.py": "0146d21072e48046913d2d323a3334794024f984143242fef9de40e804985ad2",
+    "research\\stable-light-rings\\polar_residual_budget.py": "8d609884bbdcf069d004a25efb85e61c94b6d03f9fe098521be174f1aef5b042",
+    "research\\self-radiation\\check_quadratic_channels.py": "af51a62e210590e7a665b08956488b300f33ae06f7c35d216c339411f2c50936",
+    "research\\self-radiation\\data\\quadratic-channels.json": "ec9913db44e906d4dadb95fc116682c425a6cddff67f959acc1d1a01d778ca9e"
+  },
+  "implementation_sha256": "9829de6652e42ce1409e5196b573a2210daf573ae56091d9004bad0b250c1a2c",
+  "scope": "Static reciprocal response on represented background and finite endpoint conditions. No rigorous nonzero certificate, wave realization or outgoing-news estimate."
+}

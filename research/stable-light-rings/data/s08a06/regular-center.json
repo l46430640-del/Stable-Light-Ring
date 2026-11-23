@@ -1,0 +1,67 @@
+{
+  "scope": "Exact central nonlinear family; only central rows are replaced in the global reference comparison.",
+  "central_germ": {
+    "radius": 0.002,
+    "central_parameters": {
+      "a_center": 1.0,
+      "zeta_center": -0.6030193299234564,
+      "parameter_radius": "0.0001",
+      "normalization_A0": "0.06",
+      "potential_scale": "0.08"
+    },
+    "volterra_box_radius": "0.001",
+    "image_radius_bound": 0.0005020265794017278,
+    "contraction_bound": 0.5000001070502483,
+    "leading_derivative_error_bounds": [
+      0.003320307424717011,
+      0.00012142787223072557
+    ],
+    "nominal_fixed_point_error_bound": 7.0320768750468555e-09,
+    "nominal_trace_error_against_represented_background": [
+      2.817221298100725e-14,
+      1.4129646307902494e-11,
+      2.8364300605411438e-14,
+      2.824180406519909e-14
+    ],
+    "central_boundary_row_difference_bound": 3.3810317683631937e-06,
+    "minimum_metric_factor_bound": 0.9999999729992926,
+    "arithmetic": "30-digit interval arithmetic, no radial subdivision"
+  },
+  "mpmath_version": "1.3.0",
+  "local_integration_crosscheck": {
+    "parameter_samples": 5,
+    "total_radial_nodes": 100,
+    "scope": "Floating-point consistency only; existence and tangent enclosure use the Volterra contraction."
+  },
+  "verified_decimal_bounds": {
+    "central_contraction": "0.501",
+    "central_row_difference": "0.0000034",
+    "nominal_trace_error": "0.000000000015",
+    "central_replacement_interface_error": "0.000000025"
+  },
+  "reference_sha256": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+  "background_sha256": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+  "boundary_comparison": {
+    "flow_bounds": {
+      "partition_points": 3289,
+      "maximum_matrix_norm_bound": 1003.2428817515269,
+      "maximum_fundamental_defect_bound": 7.040326724683964e-08,
+      "maximum_transition_error_bound": 2.5950867097478592e-08
+    },
+    "reference_inverse_bounds": {
+      "nominal_inverse_defect_bound": 9.290879851778542e-10,
+      "flow_perturbation_bound": 1.989566854191075e-05,
+      "inverse_contraction_bound": 1.989659762989593e-05,
+      "node_inverse_norm_bound": 81901.4677991907,
+      "continuous_forcing_gain_bound": 18695.27855870302,
+      "weighted_node_error_bound": 2.0854613811668838e-05
+    },
+    "central_data_global_node_gain_bound": 1.0000932611793114,
+    "central_data_interface_gain_bound": 0.0038136603501354653,
+    "central_reference_state_norm_bound": 1.8213703215912203,
+    "central_boundary_perturbation_contraction_bound": 3.381347087373201e-06,
+    "central_replacement_global_node_error_bound": 6.15870605666325e-06,
+    "central_replacement_interface_error_bound": 2.3485022855508126e-08
+  },
+  "elapsed_seconds": 101.29953179999939
+}

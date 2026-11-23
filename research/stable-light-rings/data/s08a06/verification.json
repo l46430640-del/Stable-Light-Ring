@@ -1,0 +1,381 @@
+{
+  "status": "passed_numerical_checks",
+  "units": "mu=G=c=hbar=1",
+  "scope": "Float64 consistency checks; no rigorous error bounds, radial spectrum, or physical feedback result.",
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3"
+  },
+  "reference": "https://arxiv.org/abs/2504.17775v3",
+  "primary_background": {
+    "central_amplitude": 0.06,
+    "potential_scale": 0.08,
+    "outer_radius": 40,
+    "success": true,
+    "status": 0,
+    "message": "The algorithm converged to the desired accuracy.",
+    "nodes": 3041,
+    "max_rms_residual": 9.934719707134095e-10,
+    "mass": 5.651749734617553,
+    "charge": 26.103616116917067,
+    "omega": 0.14002313621537976,
+    "central_lapse": 0.2559103013069106,
+    "minimum_f": 0.374443204584031,
+    "r99": 17.932829089138274,
+    "A_outer": 9.942812076634919e-16,
+    "minimum_A": 9.942812076634919e-16,
+    "light_rings": [
+      {
+        "r": 15.942942517299983,
+        "Fprime": 0.20013268705852516,
+        "stable": true
+      },
+      {
+        "r": 16.527608134606997,
+        "Fprime": -0.24763947264691932,
+        "stable": false
+      }
+    ],
+    "requested_tolerance": 1e-09,
+    "integrals": {
+      "mass_integral": 5.651749734455456,
+      "charge_integral": 26.103616116917067,
+      "komar_mass": 5.651749734443077
+    },
+    "trapping": {
+      "U_stable": 0.0011607056207583938,
+      "U_unstable": 0.0011609146831825237,
+      "relative_well_depth": 0.00018011666385591782,
+      "inner_turning_point_at_barrier_top": 15.623124799609622,
+      "radial_action_at_barrier_top": 0.0007136891164105654,
+      "quadrature_error_estimate": 2.2251107287798107e-17,
+      "leading_WKB_ground_threshold_L": 2200.9531750954447,
+      "light_ring_derivative_crosscheck": 3.7752911907773523e-10
+    }
+  },
+  "convergence_runs": [
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 40,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 788,
+      "max_rms_residual": 5.196910691374443e-07,
+      "mass": 5.651749706325329,
+      "charge": 26.103615916607325,
+      "omega": 0.1400231369780135,
+      "central_lapse": 0.25591030270210485,
+      "minimum_f": 0.3744432055401937,
+      "r99": 17.93282902932149,
+      "A_outer": 9.942860285380983e-16,
+      "minimum_A": 9.942860285380983e-16,
+      "light_rings": [
+        {
+          "r": 15.942942549309302,
+          "Fprime": 0.20013264833909528,
+          "stable": true
+        },
+        {
+          "r": 16.527608563278886,
+          "Fprime": -0.2476399523548698,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-06,
+      "integrals": {
+        "mass_integral": 5.651749706400949,
+        "charge_integral": 26.10361591660576,
+        "komar_mass": 5.651749733346464
+      },
+      "trapping": {
+        "U_stable": 0.0011607056332815357,
+        "U_unstable": 0.0011609146954215364,
+        "relative_well_depth": 0.00018011641712265884,
+        "inner_turning_point_at_barrier_top": 15.623125025523434,
+        "radial_action_at_barrier_top": 0.000713688265313529,
+        "quadrature_error_estimate": 1.778018468379812e-13,
+        "leading_WKB_ground_threshold_L": 2200.9557998054415,
+        "light_ring_derivative_crosscheck": 1.007040030032158e-06
+      }
+    },
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 40,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 1058,
+      "max_rms_residual": 9.557125007766479e-08,
+      "mass": 5.651749738009876,
+      "charge": 26.1036161408488,
+      "omega": 0.1400231361383133,
+      "central_lapse": 0.2559103011674447,
+      "minimum_f": 0.3744432044199788,
+      "r99": 17.932829095449208,
+      "A_outer": 9.94281812888112e-16,
+      "minimum_A": 9.94281812888112e-16,
+      "light_rings": [
+        {
+          "r": 15.942942514006315,
+          "Fprime": 0.20013269169288095,
+          "stable": true
+        },
+        {
+          "r": 16.527608098310825,
+          "Fprime": -0.24763943054717852,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-07,
+      "integrals": {
+        "mass_integral": 5.651749738042829,
+        "charge_integral": 26.103616140849944,
+        "komar_mass": 5.651749735779298
+      },
+      "trapping": {
+        "U_stable": 0.0011607056194403078,
+        "U_unstable": 0.0011609146818770191,
+        "relative_well_depth": 0.00018011667489999716,
+        "inner_turning_point_at_barrier_top": 15.62312478605527,
+        "radial_action_at_barrier_top": 0.00071368913460401,
+        "quadrature_error_estimate": 1.2945031250632118e-14,
+        "leading_WKB_ground_threshold_L": 2200.953118988496,
+        "light_ring_derivative_crosscheck": 3.2135849536985006e-08
+      }
+    },
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 40,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 1844,
+      "max_rms_residual": 9.87965700341759e-09,
+      "mass": 5.651749735076611,
+      "charge": 26.103616120169267,
+      "omega": 0.14002313620727136,
+      "central_lapse": 0.2559103012934744,
+      "minimum_f": 0.37444320456365776,
+      "r99": 17.93282909004159,
+      "A_outer": 9.942813297742213e-16,
+      "minimum_A": 9.942813297742213e-16,
+      "light_rings": [
+        {
+          "r": 15.94294251742107,
+          "Fprime": 0.20013268745183677,
+          "stable": true
+        },
+        {
+          "r": 16.527608135090095,
+          "Fprime": -0.24763947224173088,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-08,
+      "integrals": {
+        "mass_integral": 5.651749734992575,
+        "charge_integral": 26.103616120168873,
+        "komar_mass": 5.651749734766535
+      },
+      "trapping": {
+        "U_stable": 0.0011607056205762644,
+        "U_unstable": 0.0011609146830008725,
+        "relative_well_depth": 0.00018011666429630042,
+        "inner_turning_point_at_barrier_top": 15.623124799212636,
+        "radial_action_at_barrier_top": 0.0007136891167501254,
+        "quadrature_error_estimate": 1.0248022771646872e-15,
+        "leading_WKB_ground_threshold_L": 2200.9531740482726,
+        "light_ring_derivative_crosscheck": 4.599785441428139e-09
+      }
+    },
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 40,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 3041,
+      "max_rms_residual": 9.934719707134095e-10,
+      "mass": 5.651749734617553,
+      "charge": 26.103616116917067,
+      "omega": 0.14002313621537976,
+      "central_lapse": 0.2559103013069106,
+      "minimum_f": 0.374443204584031,
+      "r99": 17.932829089138274,
+      "A_outer": 9.942812076634919e-16,
+      "minimum_A": 9.942812076634919e-16,
+      "light_rings": [
+        {
+          "r": 15.942942517299983,
+          "Fprime": 0.20013268705852516,
+          "stable": true
+        },
+        {
+          "r": 16.527608134606997,
+          "Fprime": -0.24763947264691932,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-09,
+      "integrals": {
+        "mass_integral": 5.651749734455456,
+        "charge_integral": 26.103616116917067,
+        "komar_mass": 5.651749734443077
+      },
+      "trapping": {
+        "U_stable": 0.0011607056207583938,
+        "U_unstable": 0.0011609146831825237,
+        "relative_well_depth": 0.00018011666385591782,
+        "inner_turning_point_at_barrier_top": 15.623124799609622,
+        "radial_action_at_barrier_top": 0.0007136891164105654,
+        "quadrature_error_estimate": 2.2251107287798107e-17,
+        "leading_WKB_ground_threshold_L": 2200.9531750954447,
+        "light_ring_derivative_crosscheck": 3.7752911907773523e-10
+      }
+    },
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 30,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 2907,
+      "max_rms_residual": 9.998412922967603e-10,
+      "mass": 5.651749734732469,
+      "charge": 26.103616118250148,
+      "omega": 0.14002313621452017,
+      "central_lapse": 0.25591030130553566,
+      "minimum_f": 0.37444320458638547,
+      "r99": 17.932829089560467,
+      "A_outer": 2.2772182188355799e-10,
+      "minimum_A": 2.2772182188355799e-10,
+      "light_rings": [
+        {
+          "r": 15.942942518306932,
+          "Fprime": 0.20013268680219842,
+          "stable": true
+        },
+        {
+          "r": 16.52760813466948,
+          "Fprime": -0.2476394722780848,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-09,
+      "integrals": {
+        "mass_integral": 5.651749734718013,
+        "charge_integral": 26.10361611825017,
+        "komar_mass": 5.651749734684166
+      },
+      "trapping": {
+        "U_stable": 0.0011607056207125282,
+        "U_unstable": 0.0011609146831356874,
+        "relative_well_depth": 0.00018011666302683886,
+        "inner_turning_point_at_barrier_top": 15.62312480111619,
+        "radial_action_at_barrier_top": 0.0007136891136520142,
+        "quadrature_error_estimate": 9.134041457716616e-18,
+        "leading_WKB_ground_threshold_L": 2200.9531836025694,
+        "light_ring_derivative_crosscheck": 2.6501822958380217e-10
+      }
+    },
+    {
+      "central_amplitude": 0.06,
+      "potential_scale": 0.08,
+      "outer_radius": 50,
+      "success": true,
+      "status": 0,
+      "message": "The algorithm converged to the desired accuracy.",
+      "nodes": 3555,
+      "max_rms_residual": 9.990922829136586e-10,
+      "mass": 5.65174973473614,
+      "charge": 26.103616118340742,
+      "omega": 0.1400231362142821,
+      "central_lapse": 0.2559103013049348,
+      "minimum_f": 0.3744432045875229,
+      "r99": 17.932829089602663,
+      "A_outer": 8.55756508932374e-21,
+      "minimum_A": 8.55756508932374e-21,
+      "light_rings": [
+        {
+          "r": 15.942942518539693,
+          "Fprime": 0.20013268670335704,
+          "stable": true
+        },
+        {
+          "r": 16.52760813450726,
+          "Fprime": -0.24763947208210424,
+          "stable": false
+        }
+      ],
+      "requested_tolerance": 1e-09,
+      "integrals": {
+        "mass_integral": 5.651749734727494,
+        "charge_integral": 26.10361611834075,
+        "komar_mass": 5.651749734686722
+      },
+      "trapping": {
+        "U_stable": 0.0011607056207121299,
+        "U_unstable": 0.0011609146831346529,
+        "relative_well_depth": 0.00018011666247877732,
+        "inner_turning_point_at_barrier_top": 15.62312480181285,
+        "radial_action_at_barrier_top": 0.0007136891117701847,
+        "quadrature_error_estimate": 1.1421084889670208e-17,
+        "leading_WKB_ground_threshold_L": 2200.953189405963,
+        "light_ring_derivative_crosscheck": 6.256826168282714e-10
+      }
+    }
+  ],
+  "outer_domain_spreads": {
+    "mass": 1.1858691806310162e-10,
+    "charge": 1.423675399792046e-09,
+    "omega": 1.0976497488712766e-12,
+    "r99": 4.643894158107287e-10
+  },
+  "independent_residuals": {
+    "A_prime_error": 6.082237057752904e-11,
+    "mass_equation_error": 1.1125085130903045e-08,
+    "lapse_equation_error": 1.1407337192903544e-09,
+    "KG_equation_error": 6.064985839937531e-11,
+    "angular_Einstein_error": 1.7775639126870607e-09,
+    "center_A_second_error": 2.193952891539272e-14,
+    "center_u_second_error": 9.439723828996716e-11,
+    "center_log_frequency_second_error": 9.022382840839782e-11
+  },
+  "first_law_checks": [
+    {
+      "central_amplitude_step": 2e-05,
+      "dM_dA0": 49.49809987362385,
+      "dN_dA0": 353.4897192841057,
+      "dM_dN": 0.14002698571791103,
+      "absolute_error_against_omega": 3.849502531266813e-06
+    },
+    {
+      "central_amplitude_step": 1e-05,
+      "dM_dA0": 49.472796910832166,
+      "dN_dA0": 353.31630242669826,
+      "dM_dN": 0.1400240990043084,
+      "absolute_error_against_omega": 9.62788928637881e-07
+    }
+  ],
+  "profile": {
+    "filename": "background.npz",
+    "sha256": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "state_order": [
+      "A/A0",
+      "(A/A0)'",
+      "m/r",
+      "log(omega/alpha)"
+    ],
+    "valid_radius_interval": [
+      0.0,
+      40.0
+    ],
+    "spline": "scipy.interpolate.PPoly.construct_fast(coefficients, r, extrapolate=False, axis=1)"
+  }
+}

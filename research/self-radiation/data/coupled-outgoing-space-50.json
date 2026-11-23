@@ -1,0 +1,72 @@
+{
+  "status": "coupled_outgoing_space_continuation_checked_qualitatively",
+  "digits": 50,
+  "scope": "Homogeneous quadrupole outgoing space and qualitative matching. Physical conserved forcing and same-source radiation are not established.",
+  "checks": {
+    "vacuum_chart": {
+      "Moncrief_normalization": true,
+      "vacuum_radial_constraint": true,
+      "vacuum_angular_constraints": 2,
+      "vacuum_gravitational_evolution": true,
+      "published_metric_reconstruction": true,
+      "chart_determinant": "Delta_vac/(4*r^2*f_M)",
+      "both_massive_channels": true,
+      "centrifugal_potential_upper": true
+    },
+    "Green_kernels": {
+      "polynomial_gravitational_comparison": true,
+      "comparison_derivative": true,
+      "massive_Dirichlet_jump": true,
+      "slower_forced_scalar_tail": true,
+      "exact_exponential_tail_integral": true,
+      "terminal_massive_integral_requires_source_decay_above_mass": true
+    }
+  },
+  "bounds": {
+    "exterior_start": 40,
+    "rn_upper": 0.19737759799344368,
+    "two_r_squared_f_B_squared_lower": 0.9236578602267375,
+    "Xi_upper": 2.230331832626666e-13,
+    "determinant_lower": 3.2974999999991073,
+    "determinant_display": "Delta > 3.29",
+    "weighted_determinant_display": "Delta > 0.1*(1+z^2)",
+    "weighted_determinant_remainder_lower": 0.89722222222133,
+    "analytic_comparison_radius": "1e6",
+    "tortoise_radius_ratio_upper": 1.0001563915795162,
+    "massive_potential_lower": 0.9771876799999998,
+    "massive_potential_upper": 1.000000000006,
+    "massive_Green_C1_gain_upper": 3.2142857142857144,
+    "massive_Green_C1_gain_display": 4,
+    "scalar_norm_decay": ".5",
+    "coupling_decay": ".75",
+    "frequency_absolute_upper": ".01",
+    "coupled_contraction_radius": null,
+    "global_matching_frequency_cutoff": null,
+    "qualitative_scope": "A sufficiently large tail radius and a sufficiently small positive frequency interval exist; neither is numerically optimized or certified here.",
+    "radial_solves": 0,
+    "quadrature_points": 0
+  },
+  "input_sha256": {
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+  },
+  "dependency_sha256": {
+    "research\\stable-light-rings\\check_polar_coercivity.py": "f9f42d94c43004156e61a37d9127318e2dcdfd537b28f75229637731b0f384f4",
+    "research\\stable-light-rings\\check_regular_center.py": "d00ea13fa0284a9511519206b73413a9672d3bdc90083d3fc2705b51d3cac911",
+    "research\\stable-light-rings\\check_asymptotic_exterior.py": "8d1ac65c371686ad7b8ba2172199921e2f8a3900c73ab6e29ac18327a0f0647e",
+    "research\\stable-light-rings\\check_background_defect.py": "8a2fc75b95cd9fdb212f8cf439cc9d3f50eccacfe15eae7bb0895f0407564ef5",
+    "research\\stable-light-rings\\check_barrier_certificate.py": "aff3c1718bc3402bc24fd910458ab3ba67b43b3b59ef742da75b9d1f69cd2c7c",
+    "research\\stable-light-rings\\check_finite_static_inverse.py": "9162378dd350ca12c99467758ed36594474b3756abde0fc3abf5a4670ea8282d",
+    "research\\stable-light-rings\\finite_static_inverse.py": "e61aa014fd139b3bd5f74aba836926cd5e14680622faf574545970652b952e28",
+    "research\\stable-light-rings\\trapped_axial.py": "0146d21072e48046913d2d323a3334794024f984143242fef9de40e804985ad2",
+    "research\\self-radiation\\check_stationary_phase.py": "12684729ce13eee9195429330eda2a84394c9b4ef556b98a7d83458afd2e7dc6",
+    "research\\self-radiation\\data\\frequency-regular-polar-50.json": "f797805f4f01b747bdfd8d5c3fa80e0ba66319fc40ed959c8065a456b7333fb7",
+    "research\\self-radiation\\data\\stationary-phase-50.json": "be22e2d0c984855c53e85050983dc833da5f15d512acd833f59b793f5f042ba5",
+    "research\\self-radiation\\data\\low-frequency-quadrupole-50.json": "a2a8da3d9a318f62ee746842ac67b996a6fcfa86aa07ad3934f259ee0e193f00",
+    "research\\self-radiation\\check_frequency_regular_polar.py": "ab62fd78f9e444ec583a7a07ed271426b69306f4423121ac908361ab4febce8a",
+    "research\\self-radiation\\check_low_frequency_quadrupole.py": "c58c651bfdba2383525c2670f0ee030b8f374806ef60fc3ea746ffd687ef2a84"
+  },
+  "elapsed_seconds": 1.1613995999996405
+}

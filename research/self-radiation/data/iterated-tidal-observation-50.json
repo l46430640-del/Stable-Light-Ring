@@ -1,0 +1,89 @@
+{
+  "status": "iterated_tidal_field_observation_enclosed",
+  "scope": "Field error on the exact orbit only; no nonzero overlap or physical news certificate.",
+  "digits": 50,
+  "algebra": {
+    "weighted_orbital_operator": true,
+    "matrix_covariant_derivative": true,
+    "angular_metric_cancellation": true,
+    "repeated_turning_model": 4,
+    "azimuth_first_integral": true,
+    "exact_flux_primitive": true
+  },
+  "implementation_checks": {
+    "truncation_consistency_components": 32,
+    "independent_first_row_difference": 2.5608855314107615e-16,
+    "independent_integrated_field_components": 16,
+    "maximum_integrated_field_float_excess": 1.7763568394002505e-15
+  },
+  "interval": {
+    "xi": [
+      "3/5",
+      "31/50"
+    ],
+    "radial_interval": [
+      "15.67",
+      "16.31"
+    ],
+    "nonempty_cells": 536,
+    "partition_cells": 569,
+    "radial_interval_evaluations": 569,
+    "coefficient_bounds": [
+      [
+        0.0023401433598378026,
+        0.0023421223643564464,
+        0.0005976530146658775,
+        4.3935854731166795e-06
+      ],
+      [
+        0.00042722509368196154,
+        0.0003435033753857221,
+        0.00017803933969565727,
+        3.262809253821744e-06
+      ],
+      [
+        0.0003324806100684204,
+        0.00020995905128993133,
+        0.00020738926846904787,
+        4.4368002032437325e-06
+      ]
+    ],
+    "field_observation_error_bounds": [
+      2.0567347643024514e-07,
+      4.7529479354991414e-08,
+      4.591275105834423e-08
+    ],
+    "trial_amplitude_bounds": [
+      0.002498175893462221,
+      0.0005009637662717413,
+      0.00040742814118409083
+    ],
+    "trial_component_bounds": [
+      0.46932320782275777,
+      0.5777424904184922,
+      0.6400292680171059,
+      12.907148966530196
+    ],
+    "field_certificate_sha256": "456834aa651214498fa0da60be5fd5096bdc1297acd32ecc4db060a5b4821094"
+  },
+  "input_sha256": {
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+  },
+  "relative_optics_sha256": "3c2c0ffd4df4c366778ccec377a8e2f0bba4e53ccaf4970305dc0dce07c9d201",
+  "dependency_sha256": {
+    "research\\self-radiation\\check_slow_orbit_reduction.py": "5604f4510bd7e06852abf8628b14ed2918921edba9c2a919ff2450d451b32165",
+    "research\\self-radiation\\screen_slow_multipole.py": "9829de6652e42ce1409e5196b573a2210daf573ae56091d9004bad0b250c1a2c",
+    "research\\self-radiation\\check_tidal_field_error.py": "29bae389327b144c51bf42c53ea7a5014ee6f6d0c7fe7f785713ebacc3992e96",
+    "research\\self-radiation\\data\\slow-orbit-reduction-50.json": "bb59efc359966bf1cb040c2b02f16f8ba0423fa6549c870ed4a46637342b5c20",
+    "research\\self-radiation\\data\\tidal-field-error-50.json": "456834aa651214498fa0da60be5fd5096bdc1297acd32ecc4db060a5b4821094",
+    "research\\stable-light-rings\\check_barrier_certificate.py": "aff3c1718bc3402bc24fd910458ab3ba67b43b3b59ef742da75b9d1f69cd2c7c",
+    "research\\stable-light-rings\\check_background_defect.py": "8a2fc75b95cd9fdb212f8cf439cc9d3f50eccacfe15eae7bb0895f0407564ef5",
+    "research\\stable-light-rings\\check_polar_transverse.py": "b43cc9d9c77ff1273c31c3eff1662e58fe902361ab7ecd4a51052e59e7ca0b39",
+    "research\\stable-light-rings\\check_polar_coercivity.py": "f9f42d94c43004156e61a37d9127318e2dcdfd537b28f75229637731b0f384f4",
+    "research\\stable-light-rings\\check_relative_optics.py": "cf88f284aa2374efcfa146fb1d9ae42fdb7e225b1b37f8767f4402f0df2d3817"
+  },
+  "elapsed_seconds": 21.53935669999919
+}

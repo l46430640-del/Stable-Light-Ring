@@ -1,0 +1,240 @@
+{
+  "status": "growing_tide_energy_error_enclosed",
+  "digits": 50,
+  "scope": "Growing quadrupolar tide on the inherited exact star; no overlap or news sign.",
+  "input_sha256": {
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025",
+    "slow-tide-l2-tol-2e-09-R40.npz": "c0da0aef50a0db8a296733a3d1d4741b6ee710ea5abd798123457d1ef3cc0304",
+    "polar-transverse-deformation.npz": "8f56d5a27b85820bb4fdbf82be9f970e069f5e3df07b7c7eba53402fe6cf5ee2",
+    "polar-transverse-50.json": "5846030e61d7a4a12dd3b608307b0f849fdd59d924d8b30bb6b6949ab8caf93e",
+    "slow-orbit-reduction-50.json": "bb59efc359966bf1cb040c2b02f16f8ba0423fa6549c870ed4a46637342b5c20",
+    "slow-static-multipole.json": "f6f6e944457bacb684e4f0ddf933afb614ff9567c8496670891fbea1579ac201"
+  },
+  "algebra": {
+    "growing_vacuum_solution": true,
+    "scalar_extension": true,
+    "exponential_moments": true,
+    "deformed_weak_residual_identity": true
+  },
+  "implementation_checks": {
+    "independent_residual_values": 48,
+    "maximum_float_excess": 2.281654894554114e-17,
+    "exact_rational_polynomial_jet_checks": 8,
+    "vacuum_slope_recurrence": true,
+    "independent_tidal_normalization": true
+  },
+  "endpoints": {
+    "center_residual_upper": 3.082207929857796e-15,
+    "inner_interface_dual_upper": 2.1369541985706565e-24,
+    "outer_interface_dual_upper": 3.079284019265965e-11,
+    "exterior_residual_upper": 1.3342496589588807e-09,
+    "endpoint_energy_dual_upper": 1.3650455813594723e-09,
+    "exact_ADM_mass_interval": [
+      5.6517497346175505,
+      5.651749734617554
+    ],
+    "vacuum_slope_interval": [
+      -0.08918947693283165,
+      -0.089189476925485
+    ],
+    "exterior_metric_value_bound": 6.297426924495692,
+    "exterior_metric_derivative_bound": 0.315013961484708,
+    "scalar_tail": {
+      "start": 25,
+      "cells": 900,
+      "anchor_evaluations": 3,
+      "scalar_potential_lower": 1.3557973751035954,
+      "scalar_potential_upper": 1.759997572858754,
+      "first_derivative_coefficient_upper": 0.1130113511881028,
+      "first_derivative_coefficient_lower": 0.05984745195522828,
+      "local_frequency_squared_upper": 0.03578738739271296,
+      "amplitude_anchor_upper": {
+        "25": 1.6767577471290022e-07,
+        "28": 3.4005609422467873e-09,
+        "30": 6.525073535864502e-10
+      },
+      "amplitude_at_40_upper": 2.656118551568871e-14,
+      "logarithmic_scalar_slope_interval": [
+        ".98",
+        "1.5"
+      ],
+      "mass_integrand_factor": "21",
+      "lapse_integrand_factor": "30"
+    },
+    "inherited_tail": {
+      "mass_error_upper": 1.1520140044403591e-07,
+      "deformation_norm_upper": ".07",
+      "P_lower": "1100",
+      "PW_lower": ".99",
+      "coupling_per_amplitude_upper": "11"
+    }
+  },
+  "finite_cells": 6361,
+  "radial_enclosure_evaluations": 19986,
+  "finite_residual_dual_upper": 6.91455978796621e-06,
+  "energy_error_upper": 6.9159248335475694e-06,
+  "worst_cells": [
+    {
+      "interval": [
+        "2476979795053773/4503599627370496",
+        "1351079888211149/2251799813685248"
+      ],
+      "energy_squared_upper": 1.3337719479541965e-13,
+      "residual_components_upper": [
+        4.748877534622091e-09,
+        1.866365467034536e-10,
+        1.7938065817584896e-05,
+        3.6044451155310735e-07
+      ]
+    },
+    {
+      "interval": [
+        "2072359516032205/70368744177664",
+        "1036766164217583/35184372088832"
+      ],
+      "energy_squared_upper": 1.2284295889459775e-13,
+      "residual_components_upper": [
+        3.6683198948815345e-11,
+        1.586022067392706e-13,
+        1.1675885748279477e-11,
+        1.0145135477301644e-08
+      ]
+    },
+    {
+      "interval": [
+        "517796675907311/17592186044416",
+        "2072359516032205/70368744177664"
+      ],
+      "energy_squared_upper": 1.2233938086052403e-13,
+      "residual_components_upper": [
+        3.2173003279063124e-11,
+        1.3909948098536212e-13,
+        1.0736585970372879e-11,
+        1.013935458095692e-08
+      ]
+    },
+    {
+      "interval": [
+        "2070013891226283/70368744177664",
+        "517796675907311/17592186044416"
+      ],
+      "energy_squared_upper": 1.2183367756034578e-13,
+      "residual_components_upper": [
+        3.316341803543513e-11,
+        1.434236617343636e-13,
+        1.0871817866845321e-11,
+        1.0133413221113972e-08
+      ]
+    },
+    {
+      "interval": [
+        "8270673065681443/281474976710656",
+        "8275364315293287/281474976710656"
+      ],
+      "energy_squared_upper": 1.2084207769211659e-13,
+      "residual_components_upper": [
+        3.7468581289501475e-11,
+        1.7130729297038675e-13,
+        1.196476161228455e-11,
+        1.012214262230951e-08
+      ]
+    },
+    {
+      "interval": [
+        "8265981816069599/281474976710656",
+        "8270673065681443/281474976710656"
+      ],
+      "energy_squared_upper": 1.203554773937915e-13,
+      "residual_components_upper": [
+        3.2860649915670556e-11,
+        1.5024026231885666e-13,
+        1.1004413727232405e-11,
+        1.011679092591809e-08
+      ]
+    },
+    {
+      "interval": [
+        "4130645283228877/140737488355328",
+        "8265981816069599/281474976710656"
+      ],
+      "energy_squared_upper": 1.1986639421996643e-13,
+      "residual_components_upper": [
+        3.389067609066992e-11,
+        1.5494071947062656e-13,
+        1.1142428354708037e-11,
+        1.0111265157257247e-08
+      ]
+    },
+    {
+      "interval": [
+        "2074705140838127/70368744177664",
+        "59/2"
+      ],
+      "energy_squared_upper": 1.1976886411360865e-13,
+      "residual_components_upper": [
+        3.2466942377613763e-11,
+        1.327630257335669e-13,
+        1.060677891274391e-11,
+        9.987744625798024e-09
+      ]
+    }
+  ],
+  "local_residual_components_upper": [
+    1.593050336245298e-10,
+    2.3548139946404942e-09,
+    9.916201896597334e-09,
+    6.74786573362172e-08
+  ],
+  "local_error": {
+    "interval": [
+      "15.4",
+      "16.6"
+    ],
+    "P_lower": 94.01349493271172,
+    "P_upper": 110.43227240211219,
+    "PW_lower": 0.6945497276435544,
+    "T_entry_upper": [
+      [
+        0.14155166905795835,
+        0.13394266120583995
+      ],
+      [
+        0.13394266120583995,
+        2.5757405064341743
+      ]
+    ],
+    "Q_entry_upper": [
+      [
+        0.05855695600199478,
+        0.26715554478133047
+      ],
+      [
+        0.26715554478133047,
+        6.809294281770368
+      ]
+    ],
+    "trace_constants_upper": [
+      0.750997897727762,
+      1.5101206134929255
+    ],
+    "flux_errors_upper": [
+      3.8201111006018534e-06,
+      6.339406156654605e-05
+    ],
+    "integrated_trial_bridge_upper": [
+      2.449284914206779e-08,
+      3.0062763097298664e-09
+    ],
+    "state_error_upper": [
+      5.218337859979515e-06,
+      6.112177760962965e-05,
+      4.9116873214500574e-05,
+      0.004768835892617391
+    ],
+    "field_observation_error_upper": 2.844015908042979e-07
+  },
+  "elapsed_seconds": 212.43149129999802
+}

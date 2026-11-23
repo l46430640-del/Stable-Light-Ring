@@ -1,0 +1,4 @@
+# The numerical certificates hash the original bytes, including line endings.
+* -text
+*.npz binary
+*.pdf binary

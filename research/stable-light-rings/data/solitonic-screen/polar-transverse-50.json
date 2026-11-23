@@ -1,0 +1,78 @@
+{
+  "status": "all_polar_degrees_coercivity_verified",
+  "digits": 50,
+  "scope": "Exact original star; static polar degrees l>=2, not polar dynamical stability.",
+  "input_sha256": {
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+  },
+  "deformation_sha256": "8f56d5a27b85820bb4fdbf82be9f970e069f5e3df07b7c7eba53402fe6cf5ee2",
+  "algebra": {
+    "rotating_frame_factorization": true,
+    "hermite_value_and_slope_matching": true,
+    "downward_jump_energy_identity": true,
+    "symmetric_matrix_residual_identity": true,
+    "coefficient_checks": 14,
+    "maximum_scaled_coefficient_difference": 2.8961545597364395e-15
+  },
+  "center": {
+    "radius": ".1",
+    "volterra_box_radius": ".001",
+    "image_radius": 0.0005005009968613388,
+    "contraction": 0.5002675662660607,
+    "scaled_residual_lower": 1.8841478782872967
+  },
+  "finite_region": {
+    "partition_points": 3470,
+    "mean_value_narrowings": 683,
+    "regions": [
+      [
+        0.1,
+        15
+      ],
+      [
+        15,
+        20
+      ],
+      [
+        20,
+        40
+      ]
+    ],
+    "residual_lower_bounds": [
+      0.0653505287417913,
+      0.00010444709435055636,
+      1.3548362422338724
+    ],
+    "downward_jump_at_20": 1.1819065008446656
+  },
+  "tail": {
+    "range": [
+      40,
+      "infinity"
+    ],
+    "potential_lower": 0.9722719660864357,
+    "r_squared_amplitude_upper": "0.000016",
+    "uses_exact_exterior_family": true
+  },
+  "floating_energy_consistency": [
+    {
+      "order": 6,
+      "points": 3600,
+      "energy": 1898.693648136959,
+      "interface_term": 69.1485510551151,
+      "relative_identity_error": 9.187377840705503e-13
+    },
+    {
+      "order": 10,
+      "points": 6000,
+      "energy": 1898.6936481369573,
+      "interface_term": 69.1485510551151,
+      "relative_identity_error": 9.205331288804857e-13
+    }
+  ],
+  "coercivity": "l*(l+1)-2",
+  "elapsed_seconds": 7.733334399999876
+}

@@ -1,0 +1,1117 @@
+{
+  "status": "classical_resonance_certified_overlap_not_certified",
+  "algebra": {
+    "reduced_row_identity": true,
+    "twice_integrated_identity": true,
+    "exact_boundary_primitive_and_mixed_residual": true,
+    "frequency_ratio_monotonicity": true,
+    "turning_endpoint_models": 4
+  },
+  "digits": 30,
+  "resonance": {
+    "status": "unique_exact_background_classical_resonance_enclosed",
+    "k": 2,
+    "j": 5,
+    "bracket": [
+      "3/5",
+      "31/50"
+    ],
+    "angles": [
+      {
+        "xi": "29/50",
+        "subdivisions": 1024,
+        "ratio": [
+          2.4657810231485215,
+          2.490254426913006
+        ],
+        "half_azimuth": [
+          7.74647954768452,
+          7.823365013159361
+        ],
+        "interior": [
+          7.014364347469963,
+          7.076491116654118
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "1104380808782922073/70368744177664000",
+              "1104385206829433177/70368744177664000"
+            ],
+            "cut": "1104596313061966169/70368744177664000",
+            "log_slope_bounds": [
+              0.0008791257317759685,
+              0.0009154674414365518
+            ],
+            "geometric_bounds": [
+              0.08472125299932774,
+              0.08474019698052063
+            ],
+            "integral": [
+              0.3067333041019711,
+              0.31632390808767796
+            ]
+          },
+          {
+            "turning_bracket": [
+              "286308334759204737/17592186044416000",
+              "286309434270832513/17592186044416000"
+            ],
+            "cut": "286255558201071489/17592186044416000",
+            "log_slope_bounds": [
+              0.00046012787512061503,
+              0.0004614287379652908
+            ],
+            "geometric_bounds": [
+              0.0834143953636264,
+              0.08344394143853362
+            ],
+            "integral": [
+              0.42538189611258514,
+              0.4305499884175646
+            ]
+          }
+        ],
+        "interval_cells": 1233
+      },
+      {
+        "xi": "3/5",
+        "subdivisions": 1024,
+        "ratio": [
+          2.480050560890381,
+          2.5040213433340868
+        ],
+        "half_azimuth": [
+          7.791308622624468,
+          7.866615056650412
+        ],
+        "interior": [
+          7.060159121810126,
+          7.1227201714576385
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "276025789711366987/17592186044416000",
+              "276026889222994763/17592186044416000"
+            ],
+            "cut": "276079665781128011/17592186044416000",
+            "log_slope_bounds": [
+              0.0009033001626437955,
+              0.0009276551220384656
+            ],
+            "geometric_bounds": [
+              0.08473842584502586,
+              0.08475496637063704
+            ],
+            "integral": [
+              0.30477344540974305,
+              0.3121168074718005
+            ]
+          },
+          {
+            "turning_bracket": [
+              "572892719980783849/35184372088832000",
+              "572894919004039401/35184372088832000"
+            ],
+            "cut": "572787166864517353/35184372088832000",
+            "log_slope_bounds": [
+              0.00045759675470527825,
+              0.0004594201982061518
+            ],
+            "geometric_bounds": [
+              0.08342717394926003,
+              0.08345147400722888
+            ],
+            "integral": [
+              0.42637605540459933,
+              0.4317780777209731
+            ]
+          }
+        ],
+        "interval_cells": 1238
+      },
+      {
+        "xi": "31/50",
+        "subdivisions": 1024,
+        "ratio": [
+          2.4951225336832366,
+          2.519163233781377
+        ],
+        "half_azimuth": [
+          7.8386586216256084,
+          7.9141847084410815
+        ],
+        "interior": [
+          7.108070194541743,
+          7.170683168262647
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "1103830630215625323/70368744177664000",
+              "1103835028262136427/70368744177664000"
+            ],
+            "cut": "1104046134494669419/70368744177664000",
+            "log_slope_bounds": [
+              0.0009154478322566245,
+              0.0009398827431008858
+            ],
+            "geometric_bounds": [
+              0.08475485093843782,
+              0.08477196579041671
+            ],
+            "integral": [
+              0.30284312887973064,
+              0.3101012367045756
+            ]
+          },
+          {
+            "turning_bracket": [
+              "286585201170278987/17592186044416000",
+              "286586300681906763/17592186044416000"
+            ],
+            "cut": "286532424612145739/17592186044416000",
+            "log_slope_bounds": [
+              0.0004542762966683002,
+              0.0004566273571288523
+            ],
+            "geometric_bounds": [
+              0.0834403061005888,
+              0.08346054283550056
+            ],
+            "integral": [
+              0.42774529820413476,
+              0.4334003034738587
+            ]
+          }
+        ],
+        "interval_cells": 1242
+      },
+      {
+        "xi": "13/20",
+        "subdivisions": 1024,
+        "ratio": [
+          2.518003152255351,
+          2.54336235738602
+        ],
+        "half_azimuth": [
+          7.910540204841355,
+          7.990208497380738
+        ],
+        "interior": [
+          7.183239145800048,
+          7.24782436687241
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "1103430894474291573/70368744177664000",
+              "1103435292520802677/70368744177664000"
+            ],
+            "cut": "1103646398753335669/70368744177664000",
+            "log_slope_bounds": [
+              0.000939863301363838,
+              0.000976803809702641
+            ],
+            "geometric_bounds": [
+              0.08477690108170623,
+              0.08479485596194088
+            ],
+            "integral": [
+              0.2971418606206925,
+              0.3061295161551988
+            ]
+          },
+          {
+            "turning_bracket": [
+              "573591026012846599/35184372088832000",
+              "573593225036102151/35184372088832000"
+            ],
+            "cut": "573485472896580103/35184372088832000",
+            "log_slope_bounds": [
+              0.00044860804812324294,
+              0.00045167047553034334
+            ],
+            "geometric_bounds": [
+              0.0834544968195457,
+              0.08348443639603227
+            ],
+            "integral": [
+              0.43015919842061334,
+              0.43625461435312923
+            ]
+          }
+        ],
+        "interval_cells": 1248
+      },
+      {
+        "xi": "3/5",
+        "subdivisions": 3584,
+        "ratio": [
+          2.4863359411881443,
+          2.4973869177502372
+        ],
+        "half_azimuth": [
+          7.811054727192939,
+          7.845772393975403
+        ],
+        "interior": [
+          7.079905226378597,
+          7.1018775087826285
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "276025789711366987/17592186044416000",
+              "276026889222994763/17592186044416000"
+            ],
+            "cut": "276079665781128011/17592186044416000",
+            "log_slope_bounds": [
+              0.0009033001626437955,
+              0.0009276551220384656
+            ],
+            "geometric_bounds": [
+              0.08473842584502586,
+              0.08475496637063704
+            ],
+            "integral": [
+              0.30477344540974305,
+              0.3121168074718005
+            ]
+          },
+          {
+            "turning_bracket": [
+              "572892719980783849/35184372088832000",
+              "572894919004039401/35184372088832000"
+            ],
+            "cut": "572787166864517353/35184372088832000",
+            "log_slope_bounds": [
+              0.00045759675470527825,
+              0.0004594201982061518
+            ],
+            "geometric_bounds": [
+              0.08342717394926003,
+              0.08345147400722888
+            ],
+            "integral": [
+              0.42637605540459933,
+              0.4317780777209731
+            ]
+          }
+        ],
+        "interval_cells": 3798
+      },
+      {
+        "xi": "31/50",
+        "subdivisions": 3584,
+        "ratio": [
+          2.5014068156071114,
+          2.512534114916801
+        ],
+        "half_azimuth": [
+          7.858401275550741,
+          7.893358717316355
+        ],
+        "interior": [
+          7.127812848466876,
+          7.14985717713792
+        ],
+        "caps": [
+          {
+            "turning_bracket": [
+              "1103830630215625323/70368744177664000",
+              "1103835028262136427/70368744177664000"
+            ],
+            "cut": "1104046134494669419/70368744177664000",
+            "log_slope_bounds": [
+              0.0009154478322566245,
+              0.0009398827431008858
+            ],
+            "geometric_bounds": [
+              0.08475485093843782,
+              0.08477196579041671
+            ],
+            "integral": [
+              0.30284312887973064,
+              0.3101012367045756
+            ]
+          },
+          {
+            "turning_bracket": [
+              "286585201170278987/17592186044416000",
+              "286586300681906763/17592186044416000"
+            ],
+            "cut": "286532424612145739/17592186044416000",
+            "log_slope_bounds": [
+              0.0004542762966683002,
+              0.0004566273571288523
+            ],
+            "geometric_bounds": [
+              0.0834403061005888,
+              0.08346054283550056
+            ],
+            "integral": [
+              0.42774529820413476,
+              0.4334003034738587
+            ]
+          }
+        ],
+        "interval_cells": 3802
+      }
+    ],
+    "coefficient_bound": {
+      "xi": [
+        "3/5",
+        "31/50"
+      ],
+      "radial_interval": [
+        "1567/100",
+        "1631/100"
+      ],
+      "components": [
+        "v",
+        "r_0 v_prime",
+        "u/0.06",
+        "r_0 u_prime/0.06"
+      ],
+      "reference_radius_exact": "2243769686878173/140737488355328",
+      "component_bounds": [
+        0.0033531699314291808,
+        0.0033542882971242653,
+        0.000829626017739163,
+        4.417260271819063e-06
+      ],
+      "sum_bound": 0.007541501506564428,
+      "nonempty_cells": 221,
+      "scope": "Exact-background coefficients on exact orbits in the stated energy range; not a tidal-field error bound."
+    },
+    "monotonicity_sha256": "0b6fe2a875b3849740fd85f0724a64eaa9c4eff392efd2fd66215a8fffd39279",
+    "inherited_background_hashes": {
+      "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+      "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+      "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+      "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+    },
+    "relative_optics_sha256": "3c2c0ffd4df4c366778ccec377a8e2f0bba4e53ccaf4970305dc0dce07c9d201",
+    "maximum_interval_cells": 3802,
+    "interval_cell_evaluations": 12818
+  },
+  "floating": {
+    "roots": {
+      "5": [
+        0.611314410793081,
+        0.6113144108037043
+      ],
+      "6": [
+        0.9261955837062534,
+        0.9261955837053457
+      ],
+      "7": [
+        0.9850125236732123,
+        0.985012523660241
+      ],
+      "8": [
+        0.9968893515459999,
+        0.9968893515456175
+      ]
+    },
+    "trials": [
+      {
+        "tolerance": 1e-06,
+        "outer": 40.0,
+        "rows": [
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 64,
+            "points_including_gap": 3752,
+            "beat": -1.1804881106880486e-13,
+            "original": 3.073020324148052e-07,
+            "twice_differentiated": 3.073020348452395e-07,
+            "ode_reduced": 3.0730216641665035e-07,
+            "absolute_original": 0.8279423022802791,
+            "absolute_reduced": 0.0006658325196590867,
+            "reduced_amplitude_L1": 0.0010543457847060724,
+            "coefficient_absolute_integrals": [
+              0.0006217010243639406,
+              0.0006312147409394653,
+              0.0001327467512631083,
+              1.3013565867692226e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367822139406506
+          },
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 128,
+            "points_including_gap": 4520,
+            "beat": -5.923245500555609e-14,
+            "original": 3.0730203546310137e-07,
+            "twice_differentiated": 3.0730203512641075e-07,
+            "ode_reduced": 3.073021666993564e-07,
+            "absolute_original": 0.8279457629553812,
+            "absolute_reduced": 0.0006658378106484982,
+            "reduced_amplitude_L1": 0.0010543457847075946,
+            "coefficient_absolute_integrals": [
+              0.0006217062080907582,
+              0.0006312197051868136,
+              0.00013274706273500586,
+              1.3013579781806602e-06
+            ],
+            "maximum_reduced_amplitude": 0.00213678324208419
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 64,
+            "points_including_gap": 4664,
+            "beat": 1.988821947558883e-12,
+            "original": 5.991329087118129e-07,
+            "twice_differentiated": 5.991329296941946e-07,
+            "ode_reduced": 5.991325599531416e-07,
+            "absolute_original": 0.8358172239623449,
+            "absolute_reduced": 0.000683039775568176,
+            "reduced_amplitude_L1": 0.0010815703821881592,
+            "coefficient_absolute_integrals": [
+              0.0006265032597864311,
+              0.0006476251701823795,
+              0.000164004334647797,
+              1.8607404649144397e-06
+            ],
+            "maximum_reduced_amplitude": 0.002682701174281878
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 128,
+            "points_including_gap": 5336,
+            "beat": 1.6666754298567832e-12,
+            "original": 5.991329133474277e-07,
+            "twice_differentiated": 5.991329295293308e-07,
+            "ode_reduced": 5.991325597954784e-07,
+            "absolute_original": 0.835816627125025,
+            "absolute_reduced": 0.000683039476999595,
+            "reduced_amplitude_L1": 0.0010815703821904332,
+            "coefficient_absolute_integrals": [
+              0.0006265029968665991,
+              0.0006476248963559448,
+              0.00016400425101936226,
+              1.8607404065102781e-06
+            ],
+            "maximum_reduced_amplitude": 0.002682702610529139
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 64,
+            "points_including_gap": 4856,
+            "beat": -4.335339413660223e-13,
+            "original": 5.817466511279397e-07,
+            "twice_differentiated": 5.817466361464341e-07,
+            "ode_reduced": 5.817469467259683e-07,
+            "absolute_original": 0.8411567486631061,
+            "absolute_reduced": 0.0006037953886871211,
+            "reduced_amplitude_L1": 0.0009560648925313525,
+            "coefficient_absolute_integrals": [
+              0.00055040391511846,
+              0.0005724464221110779,
+              0.00015081858893135636,
+              1.7669394976049505e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027748879318894265
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 128,
+            "points_including_gap": 5528,
+            "beat": -2.3263521780618866e-13,
+            "original": 5.817466514614485e-07,
+            "twice_differentiated": 5.817466359131353e-07,
+            "ode_reduced": 5.817469464978969e-07,
+            "absolute_original": 0.8411547261131215,
+            "absolute_reduced": 0.000603792432529706,
+            "reduced_amplitude_L1": 0.0009560648925280394,
+            "coefficient_absolute_integrals": [
+              0.0005504010672238377,
+              0.0005724436303849293,
+              0.00015081831861816009,
+              1.7669379354725885e-06
+            ],
+            "maximum_reduced_amplitude": 0.002774889488416751
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 64,
+            "points_including_gap": 4976,
+            "beat": 5.338651151165143e-13,
+            "original": 5.215199709051856e-07,
+            "twice_differentiated": 5.215199707450157e-07,
+            "ode_reduced": 5.215196780563638e-07,
+            "absolute_original": 0.8450845200377641,
+            "absolute_reduced": 0.0005315075506447584,
+            "reduced_amplitude_L1": 0.0008415939307947363,
+            "coefficient_absolute_integrals": [
+              0.0004835993464421042,
+              0.0005038943600016192,
+              0.00013406069834597,
+              1.5845078570342403e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793203109703761
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 128,
+            "points_including_gap": 5624,
+            "beat": 2.257086347798718e-12,
+            "original": 5.215199699100278e-07,
+            "twice_differentiated": 5.215199710837681e-07,
+            "ode_reduced": 5.215196783696724e-07,
+            "absolute_original": 0.8450847064837474,
+            "absolute_reduced": 0.0005315076823442775,
+            "reduced_amplitude_L1": 0.0008415939307782609,
+            "coefficient_absolute_integrals": [
+              0.0004835995010552384,
+              0.0005038944729882676,
+              0.00013406072621667385,
+              1.5845084947062075e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793204711469706
+          }
+        ],
+        "input_path": "research\\self-radiation\\data\\slow-tide-l2-tol-1e-06-R40.npz",
+        "input_sha256": "eb7c0a88630412501d6e03a0c9c59107fc37fac1526d88e1d4e235bc530189f3"
+      },
+      {
+        "tolerance": 2e-07,
+        "outer": 40.0,
+        "rows": [
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 64,
+            "points_including_gap": 3752,
+            "beat": -1.1804881106880486e-13,
+            "original": 3.0730203371583487e-07,
+            "twice_differentiated": 3.073020361407608e-07,
+            "ode_reduced": 3.073021677121759e-07,
+            "absolute_original": 0.8279423027813315,
+            "absolute_reduced": 0.0006658325201180142,
+            "reduced_amplitude_L1": 0.001054345785433337,
+            "coefficient_absolute_integrals": [
+              0.0006217010243639406,
+              0.0006312147409394653,
+              0.0001327467512631083,
+              1.3013565867692226e-06
+            ],
+            "maximum_reduced_amplitude": 0.002136782215391628
+          },
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 128,
+            "points_including_gap": 4520,
+            "beat": -5.923245500555609e-14,
+            "original": 3.0730203677179205e-07,
+            "twice_differentiated": 3.0730203642193483e-07,
+            "ode_reduced": 3.073021679948663e-07,
+            "absolute_original": 0.8279457634564359,
+            "absolute_reduced": 0.0006658378111074294,
+            "reduced_amplitude_L1": 0.0010543457854348594,
+            "coefficient_absolute_integrals": [
+              0.0006217062080907582,
+              0.0006312197051868136,
+              0.00013274706273500586,
+              1.3013579781806602e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367832435351683
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 64,
+            "points_including_gap": 4664,
+            "beat": 1.988821947558883e-12,
+            "original": 5.991329112540501e-07,
+            "twice_differentiated": 5.99132932222684e-07,
+            "ode_reduced": 5.991325624816671e-07,
+            "absolute_original": 0.8358172244685416,
+            "absolute_reduced": 0.0006830397760388309,
+            "reduced_amplitude_L1": 0.0010815703829341128,
+            "coefficient_absolute_integrals": [
+              0.0006265032597864311,
+              0.0006476251701823795,
+              0.000164004334647797,
+              1.8607404649144397e-06
+            ],
+            "maximum_reduced_amplitude": 0.002682701176084765
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 128,
+            "points_including_gap": 5336,
+            "beat": 1.6666754298567832e-12,
+            "original": 5.991329159070122e-07,
+            "twice_differentiated": 5.991329320578456e-07,
+            "ode_reduced": 5.991325623240254e-07,
+            "absolute_original": 0.8358166276312211,
+            "absolute_reduced": 0.0006830394774702497,
+            "reduced_amplitude_L1": 0.0010815703829363873,
+            "coefficient_absolute_integrals": [
+              0.0006265029968665991,
+              0.0006476248963559448,
+              0.00016400425101936226,
+              1.8607404065102781e-06
+            ],
+            "maximum_reduced_amplitude": 0.0026827026123320253
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 64,
+            "points_including_gap": 4856,
+            "beat": -4.335339413660223e-13,
+            "original": 5.817466536213785e-07,
+            "twice_differentiated": 5.817466386020467e-07,
+            "ode_reduced": 5.817469491816385e-07,
+            "absolute_original": 0.8411567491727572,
+            "absolute_reduced": 0.0006037953891031556,
+            "reduced_amplitude_L1": 0.0009560648931907348,
+            "coefficient_absolute_integrals": [
+              0.00055040391511846,
+              0.0005724464221110779,
+              0.00015081858893135636,
+              1.7669394976049505e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027748879337506287
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 128,
+            "points_including_gap": 5528,
+            "beat": -2.3263521780618866e-13,
+            "original": 5.817466539443996e-07,
+            "twice_differentiated": 5.81746638368763e-07,
+            "ode_reduced": 5.817469489535717e-07,
+            "absolute_original": 0.8411547266227716,
+            "absolute_reduced": 0.0006037924329457389,
+            "reduced_amplitude_L1": 0.0009560648931874218,
+            "coefficient_absolute_integrals": [
+              0.0005504010672238377,
+              0.0005724436303849293,
+              0.00015081831861816009,
+              1.7669379354725885e-06
+            ],
+            "maximum_reduced_amplitude": 0.002774889490277954
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 64,
+            "points_including_gap": 4976,
+            "beat": 5.338651151165143e-13,
+            "original": 5.215199731507877e-07,
+            "twice_differentiated": 5.215199729465122e-07,
+            "ode_reduced": 5.215196802578945e-07,
+            "absolute_original": 0.8450845205499502,
+            "absolute_reduced": 0.0005315075510109816,
+            "reduced_amplitude_L1": 0.0008415939313751676,
+            "coefficient_absolute_integrals": [
+              0.0004835993464421042,
+              0.0005038943600016192,
+              0.00013406069834597,
+              1.5845078570342403e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793203111576508
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 128,
+            "points_including_gap": 5624,
+            "beat": 2.257086347798718e-12,
+            "original": 5.215199721366871e-07,
+            "twice_differentiated": 5.215199732852506e-07,
+            "ode_reduced": 5.215196805711933e-07,
+            "absolute_original": 0.8450847069959333,
+            "absolute_reduced": 0.0005315076827105009,
+            "reduced_amplitude_L1": 0.0008415939313586927,
+            "coefficient_absolute_integrals": [
+              0.0004835995010552384,
+              0.0005038944729882676,
+              0.00013406072621667385,
+              1.5845084947062075e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793204713342454
+          }
+        ],
+        "input_path": "research\\self-radiation\\data\\slow-tide-l2-tol-2e-07-R40.npz",
+        "input_sha256": "4df355651140ceb26d17d41019c15ce063a83fac67b17bef759d65784b4586c1"
+      },
+      {
+        "tolerance": 2e-09,
+        "outer": 40.0,
+        "rows": [
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 64,
+            "points_including_gap": 5128,
+            "beat": -1.234272751762575e-13,
+            "original": 3.07302032930076e-07,
+            "twice_differentiated": 3.073020360503712e-07,
+            "ode_reduced": 3.073021676583197e-07,
+            "absolute_original": 0.8279418033705483,
+            "absolute_reduced": 0.0006658321212892893,
+            "reduced_amplitude_L1": 0.0010543457852956804,
+            "coefficient_absolute_integrals": [
+              0.0006217006336568565,
+              0.0006312142946484128,
+              0.0001327467122923428,
+              1.3013569011305004e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367829443600353
+          },
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 128,
+            "points_including_gap": 5896,
+            "beat": -1.1179962139667959e-13,
+            "original": 3.073020350575415e-07,
+            "twice_differentiated": 3.073020363314478e-07,
+            "ode_reduced": 3.0730216794337747e-07,
+            "absolute_original": 0.8279460489288291,
+            "absolute_reduced": 0.000665838063791209,
+            "reduced_amplitude_L1": 0.0010543457852971246,
+            "coefficient_absolute_integrals": [
+              0.0006217064044724404,
+              0.0006312199181429097,
+              0.00013274717708776845,
+              1.3013584874081918e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367832431249674
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 64,
+            "points_including_gap": 6656,
+            "beat": 1.968800163908135e-12,
+            "original": 5.991329123663289e-07,
+            "twice_differentiated": 5.991329319107538e-07,
+            "ode_reduced": 5.991325616754146e-07,
+            "absolute_original": 0.8358152829910234,
+            "absolute_reduced": 0.0006830353692933891,
+            "reduced_amplitude_L1": 0.0010815703827936085,
+            "coefficient_absolute_integrals": [
+              0.000626498875359479,
+              0.0006476209962701071,
+              0.00016400414342072634,
+              1.860739457031256e-06
+            ],
+            "maximum_reduced_amplitude": 0.0026827011755504323
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 128,
+            "points_including_gap": 7328,
+            "beat": 1.893529045256953e-12,
+            "original": 5.991329126660761e-07,
+            "twice_differentiated": 5.991329318464641e-07,
+            "ode_reduced": 5.991325616122093e-07,
+            "absolute_original": 0.835814221510948,
+            "absolute_reduced": 0.0006830348379917815,
+            "reduced_amplitude_L1": 0.0010815703827938747,
+            "coefficient_absolute_integrals": [
+              0.0006264984075243918,
+              0.0006476205089806635,
+              0.000164003994580913,
+              1.8607393518193428e-06
+            ],
+            "maximum_reduced_amplitude": 0.0026827026117976923
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 64,
+            "points_including_gap": 7144,
+            "beat": -5.046906180288137e-13,
+            "original": 5.817466545681352e-07,
+            "twice_differentiated": 5.817466383105769e-07,
+            "ode_reduced": 5.817469483923404e-07,
+            "absolute_original": 0.8411543140453945,
+            "absolute_reduced": 0.0006037951837319535,
+            "reduced_amplitude_L1": 0.0009560649144907799,
+            "coefficient_absolute_integrals": [
+              0.0005504039993954865,
+              0.000572446202199811,
+              0.00015081807996979366,
+              1.7669357559591248e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027748879331966816
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 128,
+            "points_including_gap": 7816,
+            "beat": -2.6673846413971416e-13,
+            "original": 5.817466544925964e-07,
+            "twice_differentiated": 5.817466380109371e-07,
+            "ode_reduced": 5.817469480907476e-07,
+            "absolute_original": 0.8411548563781329,
+            "absolute_reduced": 0.0006037955127954947,
+            "reduced_amplitude_L1": 0.0009560649144867274,
+            "coefficient_absolute_integrals": [
+              0.0005504042717441477,
+              0.0005724465110976905,
+              0.00015081818814695856,
+              1.766936476070398e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027748894897240074
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 64,
+            "points_including_gap": 7312,
+            "beat": 5.133774092104379e-13,
+            "original": 5.215199729502291e-07,
+            "twice_differentiated": 5.21519972748181e-07,
+            "ode_reduced": 5.215196795985872e-07,
+            "absolute_original": 0.8450830409740575,
+            "absolute_reduced": 0.0005315066425615842,
+            "reduced_amplitude_L1": 0.0008415939479799735,
+            "coefficient_absolute_integrals": [
+              0.00048359859166610664,
+              0.0005038934678991774,
+              0.0001340603960353995,
+              1.584506112017777e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027932031110170707
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 128,
+            "points_including_gap": 7960,
+            "beat": 2.3353287715032816e-13,
+            "original": 5.215199743102825e-07,
+            "twice_differentiated": 5.215199726169979e-07,
+            "ode_reduced": 5.215196794715126e-07,
+            "absolute_original": 0.8450830472511169,
+            "absolute_reduced": 0.0005315066470193123,
+            "reduced_amplitude_L1": 0.0008415939479828575,
+            "coefficient_absolute_integrals": [
+              0.00048359859689300986,
+              0.0005038934717261782,
+              0.00013406039697034592,
+              1.5845061334418615e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793204712783016
+          }
+        ],
+        "input_path": "research\\self-radiation\\data\\slow-tide-l2-tol-2e-09-R40.npz",
+        "input_sha256": "c0da0aef50a0db8a296733a3d1d4741b6ee710ea5abd798123457d1ef3cc0304"
+      },
+      {
+        "tolerance": 2e-09,
+        "outer": 38.0,
+        "rows": [
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 64,
+            "points_including_gap": 5120,
+            "beat": -1.3923132945188617e-13,
+            "original": 3.073020325948528e-07,
+            "twice_differentiated": 3.0730203600024837e-07,
+            "ode_reduced": 3.073021676592029e-07,
+            "absolute_original": 0.8279446406827012,
+            "absolute_reduced": 0.000665836509075042,
+            "reduced_amplitude_L1": 0.0010543457852968934,
+            "coefficient_absolute_integrals": [
+              0.0006217049399335403,
+              0.0006312185325733561,
+              0.00013274696462951992,
+              1.3013577080224064e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367829443626547
+          },
+          {
+            "xi": 0.6113144108037043,
+            "j": 5,
+            "subdivisions": 128,
+            "points_including_gap": 5888,
+            "beat": -1.3057030702097021e-13,
+            "original": 3.0730203468519457e-07,
+            "twice_differentiated": 3.0730203627614463e-07,
+            "ode_reduced": 3.073021679388668e-07,
+            "absolute_original": 0.8279446849096103,
+            "absolute_reduced": 0.0006658359550161437,
+            "reduced_amplitude_L1": 0.0010543457852983172,
+            "coefficient_absolute_integrals": [
+              0.000621704334816529,
+              0.0006312179578688097,
+              0.0001327470558850453,
+              1.3013580983386882e-06
+            ],
+            "maximum_reduced_amplitude": 0.0021367832431275872
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 64,
+            "points_including_gap": 6672,
+            "beat": 1.9628925176737863e-12,
+            "original": 5.991329128194405e-07,
+            "twice_differentiated": 5.99132931873076e-07,
+            "ode_reduced": 5.991325616694151e-07,
+            "absolute_original": 0.835815215769461,
+            "absolute_reduced": 0.0006830353359247547,
+            "reduced_amplitude_L1": 0.001081570382794839,
+            "coefficient_absolute_integrals": [
+              0.0006264988561277308,
+              0.0006476209788120617,
+              0.00016400412159095465,
+              1.8607391039921618e-06
+            ],
+            "maximum_reduced_amplitude": 0.002682701175553747
+          },
+          {
+            "xi": 0.9261955837053457,
+            "j": 6,
+            "subdivisions": 128,
+            "points_including_gap": 7344,
+            "beat": 1.8869792635623347e-12,
+            "original": 5.991329129138762e-07,
+            "twice_differentiated": 5.991329318155478e-07,
+            "ode_reduced": 5.991325616135133e-07,
+            "absolute_original": 0.8358141542893861,
+            "absolute_reduced": 0.0006830348046231704,
+            "reduced_amplitude_L1": 0.0010815703827951398,
+            "coefficient_absolute_integrals": [
+              0.0006264983882926691,
+              0.0006476204915226394,
+              0.00016400397275114154,
+              1.8607389987803037e-06
+            ],
+            "maximum_reduced_amplitude": 0.0026827026118010073
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 64,
+            "points_including_gap": 7168,
+            "beat": -5.141796426704288e-13,
+            "original": 5.817466546429936e-07,
+            "twice_differentiated": 5.817466382707662e-07,
+            "ode_reduced": 5.817469483760652e-07,
+            "absolute_original": 0.8411543140432753,
+            "absolute_reduced": 0.0006037951837326514,
+            "reduced_amplitude_L1": 0.0009560649144918829,
+            "coefficient_absolute_integrals": [
+              0.0005504039993954618,
+              0.0005724462530945682,
+              0.00015081807996980326,
+              1.7669357559594585e-06
+            ],
+            "maximum_reduced_amplitude": 0.002774887933200114
+          },
+          {
+            "xi": 0.985012523660241,
+            "j": 7,
+            "subdivisions": 128,
+            "points_including_gap": 7840,
+            "beat": -2.6356811715970784e-13,
+            "original": 5.817466542453083e-07,
+            "twice_differentiated": 5.817466379940058e-07,
+            "ode_reduced": 5.817469480972473e-07,
+            "absolute_original": 0.8411548563760147,
+            "absolute_reduced": 0.0006037955127961764,
+            "reduced_amplitude_L1": 0.0009560649144878038,
+            "coefficient_absolute_integrals": [
+              0.0005504042717441072,
+              0.0005724465619924312,
+              0.00015081818814695504,
+              1.7669364760703615e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027748894897274396
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 64,
+            "points_including_gap": 7336,
+            "beat": 5.132521905095544e-13,
+            "original": 5.215199725659442e-07,
+            "twice_differentiated": 5.215199727331814e-07,
+            "ode_reduced": 5.215196796044191e-07,
+            "absolute_original": 0.8450823611676144,
+            "absolute_reduced": 0.000531506354887981,
+            "reduced_amplitude_L1": 0.0008415939479809947,
+            "coefficient_absolute_integrals": [
+              0.0004835983509257228,
+              0.0005038931703072423,
+              0.00013406030332037446,
+              1.5845056403283756e-06
+            ],
+            "maximum_reduced_amplitude": 0.0027932031110205267
+          },
+          {
+            "xi": 0.9968893515456175,
+            "j": 8,
+            "subdivisions": 128,
+            "points_including_gap": 7984,
+            "beat": 2.337062568900143e-13,
+            "original": 5.215199739807739e-07,
+            "twice_differentiated": 5.215199726013574e-07,
+            "ode_reduced": 5.215196794766703e-07,
+            "absolute_original": 0.845082367444669,
+            "absolute_reduced": 0.000531506359345709,
+            "reduced_amplitude_L1": 0.0008415939479838786,
+            "coefficient_absolute_integrals": [
+              0.00048359835615262536,
+              0.0005038931741342431,
+              0.0001340603042553211,
+              1.5845056617524635e-06
+            ],
+            "maximum_reduced_amplitude": 0.002793204712786472
+          }
+        ],
+        "input_path": "research\\self-radiation\\data\\slow-tide-l2-tol-2e-09-R38.npz",
+        "input_sha256": "8893c8cf0ee93dac8aec3b60a88965272d4380f2a2bbe1aa7d944ad53072935c"
+      }
+    ],
+    "root_orbit_evaluations": 91,
+    "maximum_root_points": 3888,
+    "bvp_solves": 0
+  },
+  "seconds": 21.835378200019477,
+  "input_sha256": {
+    "research\\stable-light-rings\\check_relative_optics.py": "cf88f284aa2374efcfa146fb1d9ae42fdb7e225b1b37f8767f4402f0df2d3817",
+    "research\\stable-light-rings\\check_polar_coercivity.py": "f9f42d94c43004156e61a37d9127318e2dcdfd537b28f75229637731b0f384f4",
+    "research\\stable-light-rings\\check_regular_center.py": "d00ea13fa0284a9511519206b73413a9672d3bdc90083d3fc2705b51d3cac911",
+    "research\\stable-light-rings\\data\\solitonic-screen\\relative-optics.json": "3c2c0ffd4df4c366778ccec377a8e2f0bba4e53ccaf4970305dc0dce07c9d201",
+    "research\\stable-light-rings\\data\\s08a06\\orbital-frequency-monotonicity-50.json": "0b6fe2a875b3849740fd85f0724a64eaa9c4eff392efd2fd66215a8fffd39279",
+    "research\\self-radiation\\data\\slow-tide-l2-tol-1e-06-R40.npz": "eb7c0a88630412501d6e03a0c9c59107fc37fac1526d88e1d4e235bc530189f3",
+    "research\\self-radiation\\data\\slow-tide-l2-tol-2e-07-R40.npz": "4df355651140ceb26d17d41019c15ce063a83fac67b17bef759d65784b4586c1",
+    "research\\self-radiation\\data\\slow-tide-l2-tol-2e-09-R40.npz": "c0da0aef50a0db8a296733a3d1d4741b6ee710ea5abd798123457d1ef3cc0304",
+    "research\\self-radiation\\data\\slow-tide-l2-tol-2e-09-R38.npz": "8893c8cf0ee93dac8aec3b60a88965272d4380f2a2bbe1aa7d944ad53072935c",
+    "research\\self-radiation\\screen_slow_multipole.py": "9829de6652e42ce1409e5196b573a2210daf573ae56091d9004bad0b250c1a2c",
+    "research\\self-radiation\\check_quadratic_channels.py": "af51a62e210590e7a665b08956488b300f33ae06f7c35d216c339411f2c50936",
+    "research\\self-radiation\\data\\slow-static-multipole.json": "f6f6e944457bacb684e4f0ddf933afb614ff9567c8496670891fbea1579ac201",
+    "research\\stable-light-rings\\polar_static.py": "80dcb406edb7c74e9199f897e5e62af3f563b371cb130bc3ddc03ca88dbf9c3e",
+    "research\\stable-light-rings\\finite_width_axial.py": "c699a9736ddd67f45d448862d77cec97f77441e5884efeba3811f5828eeb5eb5",
+    "research\\stable-light-rings\\trapped_axial.py": "0146d21072e48046913d2d323a3334794024f984143242fef9de40e804985ad2"
+  },
+  "implementation_sha256": "5604f4510bd7e06852abf8628b14ed2918921edba9c2a919ff2450d451b32165",
+  "scope": "A classical 5:2 resonance and reduced-observation coefficients on the inherited exact star. No discrete wave pair, nonzero static multipole certificate or physical radiation estimate."
+}

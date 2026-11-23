@@ -1,0 +1,75 @@
+{
+  "status": "positive_static_tidal_overlap_verified",
+  "midpoint_integral": [
+    3.057004626890725e-07,
+    3.089038717493163e-07
+  ],
+  "quadrature_error_upper": 7.256622100616508e-09,
+  "reference_overlap": [
+    2.98443840588456e-07,
+    3.1616049384993285e-07
+  ],
+  "geometry_error_upper": 4.958167196889379e-08,
+  "inherited_field_error_upper": 4.591275105834424e-08,
+  "inherited_weight_error_upper": 3.0974602315260165e-11,
+  "complete_overlap": [
+    2.0291844295890277e-07,
+    4.116858914794861e-07
+  ],
+  "denominator": [
+    1.0000516507239343,
+    1.0000516507239348
+  ],
+  "static_multipole_change_per_energy_eta_at_pi_over_3": [
+    -2.9430353290828986e-05,
+    -1.450611155034691e-05
+  ],
+  "multipole_scope": "Conditional on the static response and source assumptions of tidal reciprocity; no radiation bound.",
+  "maximum_radial_derivative": 0.0026269584527100795,
+  "maximum_chi_derivative": 2.6864694679163392,
+  "maximum_second_taylor_coefficient": 0.06847529453358166,
+  "cells": 512,
+  "row_evaluations": 1024,
+  "background_piece_evaluations": 1251,
+  "tide_piece_evaluations": 1362,
+  "elapsed_seconds": 95.02949720000015,
+  "digits": 50,
+  "refinement": 2,
+  "input_sha256": {
+    "azimuth-orbit-50.json": "c38e20cc9592841d921b77e033af49b9ef78c94ec532cac955c4f6715873828d",
+    "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+    "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+    "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025",
+    "azimuth-orbit-reference.npz": "96c1355c0349cdc199b7b6220f3ed4bc28c2cce93381fd9d4f08b448ac8d91e2",
+    "slow-tide-l2-tol-2e-09-R40.npz": "c0da0aef50a0db8a296733a3d1d4741b6ee710ea5abd798123457d1ef3cc0304",
+    "iterated-tidal-observation-50.json": "9624abb1fc9db4e2b0c9a1e9f4b439d77f909f59dce8870949c8c4a1ee72d171",
+    "relative-optics.json": "3c2c0ffd4df4c366778ccec377a8e2f0bba4e53ccaf4970305dc0dce07c9d201"
+  },
+  "checks": {
+    "algebra": {
+      "weighted_transport_identity": true,
+      "second_transport_derivative": true,
+      "midpoint_remainder_models": 10,
+      "piecewise_C1_models": 5,
+      "weak_source_flux_shift_components": 2
+    },
+    "implementation": {
+      "weighted_row_and_derivative_checks": 48,
+      "maximum_interval_identity_difference": 6.888085295201372e-49,
+      "independent_trial_field_checks": 32,
+      "maximum_trial_field_interval_difference": 2.973665671794683e-14
+    }
+  },
+  "scope": "Complete static tidal pairing on the classical resonance; physical wave realization and outgoing news remain open.",
+  "dependency_sha256": {
+    "research\\self-radiation\\check_azimuth_orbit.py": "af977c8dc6fa1d9ede11e174194460c2b101f12ec04778c77ba49b6cc7121efd",
+    "research\\self-radiation\\check_iterated_tidal_observation.py": "a9e386bc207beac3803ceea9627594f06e3a20b1b8057fd6f8fe5d883e5af0db",
+    "research\\stable-light-rings\\check_barrier_certificate.py": "aff3c1718bc3402bc24fd910458ab3ba67b43b3b59ef742da75b9d1f69cd2c7c",
+    "research\\stable-light-rings\\check_background_defect.py": "8a2fc75b95cd9fdb212f8cf439cc9d3f50eccacfe15eae7bb0895f0407564ef5",
+    "research\\stable-light-rings\\check_polar_transverse.py": "b43cc9d9c77ff1273c31c3eff1662e58fe902361ab7ecd4a51052e59e7ca0b39",
+    "research\\stable-light-rings\\check_polar_coercivity.py": "f9f42d94c43004156e61a37d9127318e2dcdfd537b28f75229637731b0f384f4",
+    "research\\stable-light-rings\\check_finite_static_inverse.py": "9162378dd350ca12c99467758ed36594474b3756abde0fc3abf5a4670ea8282d",
+    "research\\stable-light-rings\\check_asymptotic_exterior.py": "8d1ac65c371686ad7b8ba2172199921e2f8a3900c73ab6e29ac18327a0f0647e"
+  }
+}

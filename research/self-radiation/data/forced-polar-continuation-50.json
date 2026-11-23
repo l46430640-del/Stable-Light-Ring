@@ -1,0 +1,74 @@
+{
+  "status": "positive_periodic_kinetic_quadrupole_power_limit_verified",
+  "digits": 50,
+  "checks": {
+    "curvature_and_conservation": {
+      "time_time": true,
+      "mixed_radial": true,
+      "radial_angular": true,
+      "time_angular": true,
+      "time_radial": true,
+      "angular_tracefree": true,
+      "both_scalar_anisotropy_terms": true,
+      "independent_source_conservation_components": 3,
+      "null_source_trace": true,
+      "scalar_pressure_anisotropy": true
+    },
+    "forced_reduction": {
+      "constraint_propagation_entries": 28,
+      "reconstructed_forced_field_equations": 5,
+      "shifted_constraints_independent_of_anisotropy": true,
+      "source_derivatives_removed": true,
+      "zero_frequency_even_block_decouples": true,
+      "zero_frequency_current_block_retained": true
+    },
+    "kinetic_source": {
+      "two_time_reversed_transport_equations": true,
+      "standing_source_peak_normalization": true,
+      "time_current_Fourier_phase": true,
+      "modulation_total_energy_zero": true,
+      "turning_point_regularization": true,
+      "integrable_endpoint_caps": true,
+      "translated_fold_L1_distance": "4*sqrt(delta) for 0<delta<1"
+    }
+  },
+  "kinetic_response": {
+    "kinetic_amplitude_limit": [
+      -1.9620235527219325e-05,
+      -9.670741033564605e-06
+    ],
+    "kinetic_mean_power_limit": [
+      1.4028484820740533e-11,
+      5.7743046321533906e-11
+    ],
+    "amplitude_normalization": "Aout/(E_rad*eta*nu^2)",
+    "power_normalization": "mean_power/((E_rad*eta)^2*nu^6)",
+    "fixed_support_annulus": [
+      15,
+      17
+    ],
+    "frequency_cutoff": null,
+    "current_Fourier_limit_may_be_nonzero": true,
+    "scope": "Positive small-frequency periodic power for the prescribed conserved kinetic source; no gravitational-wave realization or nonlinear efficiency theorem.",
+    "input_sha256": {
+      "background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+      "global-background.json": "c3bc28b4e95f7223e30a3bb360bb85c9772a0f55bcb98bc352b7d3ed553ec583",
+      "finite-static-reference.npz": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+      "background-defect.npz": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+    },
+    "dependency_sha256": {
+      "research\\self-radiation\\data\\frequency-regular-polar-50.json": "f797805f4f01b747bdfd8d5c3fa80e0ba66319fc40ed959c8065a456b7333fb7",
+      "research\\self-radiation\\data\\coupled-outgoing-space-50.json": "8fd8488c99ac8ca60fedb8d93b54e35529a2b8e62786e9d8e7e5a6fb973718ac",
+      "research\\self-radiation\\data\\azimuth-orbit-50.json": "c38e20cc9592841d921b77e033af49b9ef78c94ec532cac955c4f6715873828d",
+      "research\\self-radiation\\data\\resonant-tidal-overlap-50.json": "c027996cff05f1a93d7d3ed82b31b98fdd354e1ff29c23a4d97c2f8e4768b621",
+      "research\\self-radiation\\data\\low-frequency-quadrupole-50.json": "a2a8da3d9a318f62ee746842ac67b996a6fcfa86aa07ad3934f259ee0e193f00",
+      "research\\self-radiation\\check_frequency_regular_polar.py": "ab62fd78f9e444ec583a7a07ed271426b69306f4423121ac908361ab4febce8a",
+      "research\\self-radiation\\check_coupled_outgoing_space.py": "d2881aa4049edf7a6d0a7b3fac701fce5bd0f3c4bacb8bb3b3c37c4c02b14864",
+      "research\\self-radiation\\check_resonant_tidal_overlap.py": "c953be03979ef0c55c02af3a4ba6925e7c5168d82062eb7296ccb008db865886",
+      "research\\self-radiation\\check_low_frequency_quadrupole.py": "c58c651bfdba2383525c2670f0ee030b8f374806ef60fc3ea746ffd687ef2a84"
+    },
+    "new_radial_solves": 0,
+    "quadrature_points": 0
+  },
+  "elapsed_seconds": 1.0309281000081683
+}

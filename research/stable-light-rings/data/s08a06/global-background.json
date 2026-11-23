@@ -1,0 +1,136 @@
+{
+  "status": "nonlinear_global_background_validated",
+  "scope": "Existence and local uniqueness at fixed ADM mass; no radial or nonlinear dynamical stability theorem.",
+  "endpoint_graphs": {
+    "radius": "2e-8",
+    "central_parameter_contraction_bound": 4.536270863232432e-06,
+    "central_parameter_image_radius": 2.0453655258536225e-08,
+    "central_parameter_displacement_bound": 2.0000118898169602e-08,
+    "central_amplitude_displacement_bound": 1.2000071338901761e-09,
+    "central_normalized_scalar_lower_bound": 0.9998999943294111,
+    "complementary_boundary_minor_lower_bounds": [
+      0.9999978698143128,
+      0.8664843552692866
+    ],
+    "exterior_parameter_contraction_bound": 0.0048842558624435485,
+    "exterior_amplitude_bound": 1.200000994281208e-09,
+    "exterior_mass_image": [
+      5.651749734617531,
+      5.651749734617553
+    ],
+    "exterior_frequency_image": [
+      0.139982872270491,
+      0.1400804581249208
+    ],
+    "frequency_bound_on_the_graph": [
+      0.14002313481514833,
+      0.14002313761561128
+    ],
+    "ADM_mass_interval": [
+      5.651749734617551,
+      5.651749734617553
+    ],
+    "endpoint_derivative_enclosures": {
+      "central_boundary_row_difference_bound": 3.3810317683631937e-06,
+      "mass_chart_pivot_lower_bound": 0.9999999999857376,
+      "frequency_chart_pivot_lower_bound": 7.092198581558141,
+      "exterior_chart_determinant_interval": [
+        -7.194244604421255,
+        -7.092198581456991
+      ],
+      "exterior_row_difference_bounds": [
+        0.07462692470937554,
+        1.248249859437281e-05
+      ],
+      "exterior_unit_mass_rhs_intervals": [
+        [
+          -7.721645974394673e-08,
+          7.721645938148502e-08
+        ],
+        [
+          0.062499999999108595,
+          0.06250000000089138
+        ]
+      ]
+    },
+    "scope": "Nonlinear endpoint graphs over all selected endpoint states in the stated weighted ball."
+  },
+  "nonlinear_interior": {
+    "partition_points": 3289,
+    "weighted_hessian_bound": 1660.2233689570678,
+    "maximum_transported_hessian_bound": 23.403093945212664,
+    "metric_factor_lower_bound": 0.37444281048038003,
+    "normalized_scalar_lower_up_to_20": 0.003948231423063132,
+    "scalar_ODE_Q_lower_from_20_to_40": 1.3557973552639084
+  },
+  "fixed_point": {
+    "weighted_ball_radius": "2e-8",
+    "nodal_zero_image_bound": 6.600607981204788e-10,
+    "zero_image_bound": 5.749517581357226e-09,
+    "nodal_derivative_bound": 0.07540875900331376,
+    "contraction_bound": 0.19760653321426355,
+    "image_radius_bound": 9.701648245642498e-09,
+    "fixed_point_error_bound": 7.165459116197569e-09,
+    "decimal_weight_error_bound": 7.16545911619757e-09,
+    "physical_static_inverse_gain_bound": 23679.15590852335,
+    "nonlinear_boundary_defect_bounds": [
+      7.091091511025962e-14,
+      7.064871921106237e-12,
+      1.2366686504352334e-15,
+      4.1784128870573566e-29
+    ],
+    "boundary_derivative_row_bounds": [
+      3.381016171889318e-08,
+      3.3810317683631937e-06,
+      0.07462692470937554,
+      1.248249859437281e-05
+    ]
+  },
+  "light_rings": [
+    {
+      "radius_interval": [
+        "15.942938",
+        "15.942947"
+      ],
+      "stable": true,
+      "left_H_interval": [
+        -1.0592520132449129e-07,
+        -7.487329417748666e-09
+      ],
+      "right_H_interval": [
+        7.051575800241398e-09,
+        1.0549095627371997e-07
+      ],
+      "r_Hprime_at_a_root_interval": [
+        0.20012915530452108,
+        0.20013623538375971
+      ]
+    },
+    {
+      "radius_interval": [
+        "16.527600",
+        "16.527617"
+      ],
+      "stable": false,
+      "left_H_interval": [
+        1.4528539025297952e-08,
+        2.2923562327965855e-07
+      ],
+      "right_H_interval": [
+        -2.4019056629078373e-07,
+        -2.5480919743570955e-08
+      ],
+      "r_Hprime_at_a_root_interval": [
+        -0.2476498911366811,
+        -0.24762978363756663
+      ]
+    }
+  ],
+  "light_ring_background_error_bound": "7.2e-9",
+  "rechecked_inverse_contraction": 0.0021264359681651937,
+  "arithmetic_digits": 30,
+  "reference_sha256": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+  "background_sha256": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+  "defect_enclosure_sha256": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025",
+  "elapsed_seconds": 11.405261499996413
+}

@@ -1,0 +1,54 @@
+{
+  "scope": "Linear correction to the nonlinear ODE defect on the represented background; nonlinear existence not certified.",
+  "local_defect": {
+    "partition_points": 3289,
+    "weighted_residual_bound": 1.71496181046436e-08,
+    "weighted_polynomial_jump_sum_bound": 1.4354858919615021e-16,
+    "maximum_cell_matrix_norm_bound": 1003.2428817515269,
+    "maximum_direct_forcing_bound": 4.417390982364269e-09,
+    "maximum_cancelled_forcing_bound": 7.821044393553921e-10,
+    "maximum_signed_forcing_width": 2.6409747721147445e-12,
+    "green_integral_taylor_order": 5,
+    "maximum_cell_growth_bound": 2.6204666808681316,
+    "arithmetic_digits": 30
+  },
+  "endpoint_defect_bounds": [
+    7.091091414056335e-14,
+    7.064871824136162e-12,
+    1.2366686504352334e-15,
+    4.1784128870297163e-29
+  ],
+  "linear_correction": {
+    "direct": {
+      "nodal_correction_bound": 1.876873141517122e-05,
+      "continuous_correction_bound": 4.918405711431342e-05
+    },
+    "cancelled": {
+      "nodal_correction_bound": 1.424028918500269e-06,
+      "continuous_correction_bound": 3.7328421322168964e-06
+    },
+    "signed_green": {
+      "nominal_nodal_correction_maximum": 4.421968577161911e-10,
+      "nodal_correction_bound": 6.600607981204604e-10,
+      "continuous_correction_bound": 5.74951758135719e-09,
+      "propagated_interval_uncertainty": 2.2902770130492563e-10
+    },
+    "exact_endpoint_tangents": {
+      "boundary_perturbation_gain": 0.07541024460445679,
+      "boundary_anchor_offset_bound": 9.717826717347656e-20,
+      "nodal_correction_bound": 7.138958596131774e-10,
+      "decimal_weight_continuous_correction_bound": 5.858166841511829e-09,
+      "scope": "Linearized matching to the exact nominal central/exterior germs, with ADM mass fixed to that of the nominal exterior."
+    }
+  },
+  "rechecked_inverse": {
+    "nominal_inverse_defect_bound": 9.290879851778542e-10,
+    "flow_perturbation_bound": 0.0021264350390772084,
+    "inverse_contraction_bound": 0.0021264359681651937,
+    "node_inverse_norm_bound": 82074.3641185666
+  },
+  "reference_sha256": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+  "background_sha256": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+  "elapsed_seconds": 210.97449160000542,
+  "defect_enclosure_sha256": "735bcfb12ba5492d01c5b11ee905f10107f8ced7b0bf6719b281be413ca87025"
+}

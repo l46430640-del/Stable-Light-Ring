@@ -1,0 +1,46 @@
+{
+  "status": "finite_reference_inverse_validated",
+  "scope": "This reference problem retains approximate center and tail boundary rows on a represented background. It is not an existence proof for an exact asymptotically flat boson star. Its local flow polynomials are validated on every background interpolation interval, including their joins.",
+  "diagnostics": {
+    "radial_nodes": 402,
+    "matrix_dimension": 1608,
+    "inverse_storage_MiB": 19.72705078125,
+    "right_interface_state": [
+      -0.5072133898128952,
+      -1.1657104911046379,
+      0.24031190045433873,
+      -0.06252586631707983
+    ]
+  },
+  "flow_bounds": {
+    "partition_points": 3289,
+    "maximum_matrix_norm_bound": 1003.2428817515269,
+    "maximum_fundamental_defect_bound": 7.040326724683964e-08,
+    "maximum_transition_error_bound": 2.5950867097478592e-08
+  },
+  "inverse_bounds": {
+    "nominal_inverse_defect_bound": 9.290879851778542e-10,
+    "flow_perturbation_bound": 1.989566854191075e-05,
+    "inverse_contraction_bound": 1.989659762989593e-05,
+    "node_inverse_norm_bound": 81901.4677991907,
+    "continuous_forcing_gain_bound": 18695.27855870302,
+    "weighted_node_error_bound": 2.0854613811668838e-05
+  },
+  "right_interface_weighted_error_bound": 6.381281655342843e-06,
+  "interface_error_against_barrier_polynomial_bound": 6.3880058316697e-06,
+  "verified_decimal_bounds": {
+    "inverse_contraction": "0.000021",
+    "continuous_forcing_gain": "19000",
+    "interface_error_against_barrier_polynomial": "0.0000065"
+  },
+  "software": {
+    "numpy": "1.26.4",
+    "scipy": "1.16.3",
+    "mpmath": "1.3.0"
+  },
+  "arithmetic": "30-digit intervals for flows; IEEE binary64 gamma bounds for sparse matrix products and sums",
+  "barrier_response_sha256": "a43488af6ffd7cf322f2255f2f9b34f3fbf803c88b272fea22a017f87f2bf1b3",
+  "background_sha256": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+  "reference_sha256": "0dde435d78f3cdd3253ae9caf458836f8415df639d6c860fb391710c46ea7368",
+  "elapsed_seconds": 98.52529090000098
+}

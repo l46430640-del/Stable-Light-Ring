@@ -1,0 +1,386 @@
+{
+  "status": "quadratic_channel_screened",
+  "principal": {
+    "null_sum_and_difference": true,
+    "linear_ricci_zero": true,
+    "quadratic_ricci_only_uu": true,
+    "quadratic_ricci_uu": "ddp*p + ddq*q + dp**2/2 + dq**2/2",
+    "transverse_radiative_source_zero": true,
+    "scalar_curvature_zero_to_second_order": true,
+    "scope": "Frozen principal gravitational symbol with no leading scalar wave. Not the complete curved-star quadratic source."
+  },
+  "angular": {
+    "gaunt_and_recurrence_checks": 18,
+    "cases": [
+      {
+        "ell": 2,
+        "other": 4,
+        "m": 0,
+        "output_degree": 2,
+        "scalar_P_projection": "6*sqrt(5)/35",
+        "unit_axial_vector_projection": "sqrt(6)/7"
+      },
+      {
+        "ell": 2,
+        "other": 4,
+        "m": 1,
+        "output_degree": 2,
+        "scalar_P_projection": "sqrt(6)/7",
+        "unit_axial_vector_projection": "sqrt(5)/7"
+      },
+      {
+        "ell": 2,
+        "other": 4,
+        "m": 2,
+        "output_degree": 2,
+        "scalar_P_projection": "sqrt(3)/7",
+        "unit_axial_vector_projection": "sqrt(10)/14"
+      },
+      {
+        "ell": 2,
+        "other": 6,
+        "m": 0,
+        "output_degree": 4,
+        "scalar_P_projection": "5*sqrt(65)/143",
+        "unit_axial_vector_projection": "5*sqrt(455)/429"
+      },
+      {
+        "ell": 2,
+        "other": 6,
+        "m": 1,
+        "output_degree": 4,
+        "scalar_P_projection": "5*sqrt(455)/429",
+        "unit_axial_vector_projection": "35*sqrt(65)/1287"
+      },
+      {
+        "ell": 2,
+        "other": 6,
+        "m": 2,
+        "output_degree": 4,
+        "scalar_P_projection": "5*sqrt(182)/429",
+        "unit_axial_vector_projection": "35*sqrt(26)/1287"
+      },
+      {
+        "ell": 5,
+        "other": 7,
+        "m": 0,
+        "output_degree": 2,
+        "scalar_P_projection": "21*sqrt(165)/715",
+        "unit_axial_vector_projection": "6*sqrt(77)/143"
+      },
+      {
+        "ell": 5,
+        "other": 7,
+        "m": 2,
+        "output_degree": 2,
+        "scalar_P_projection": "6*sqrt(66)/143",
+        "unit_axial_vector_projection": "12*sqrt(770)/1001"
+      },
+      {
+        "ell": 5,
+        "other": 7,
+        "m": 5,
+        "output_degree": 2,
+        "scalar_P_projection": "3*sqrt(10)/65",
+        "unit_axial_vector_projection": "2*sqrt(42)/91"
+      },
+      {
+        "ell": 5,
+        "other": 9,
+        "m": 0,
+        "output_degree": 4,
+        "scalar_P_projection": "882*sqrt(209)/46189",
+        "unit_axial_vector_projection": "490*sqrt(627)/46189"
+      },
+      {
+        "ell": 5,
+        "other": 9,
+        "m": 2,
+        "output_degree": 4,
+        "scalar_P_projection": "35*sqrt(798)/4199",
+        "unit_axial_vector_projection": "175*sqrt(266)/12597"
+      },
+      {
+        "ell": 5,
+        "other": 9,
+        "m": 5,
+        "output_degree": 4,
+        "scalar_P_projection": "7*sqrt(1729)/4199",
+        "unit_axial_vector_projection": "35*sqrt(5187)/37791"
+      },
+      {
+        "ell": 10,
+        "other": 12,
+        "m": 0,
+        "output_degree": 2,
+        "scalar_P_projection": "66*sqrt(21)/805",
+        "unit_axial_vector_projection": "3*sqrt(10010)/805"
+      },
+      {
+        "ell": 10,
+        "other": 12,
+        "m": 5,
+        "output_degree": 2,
+        "scalar_P_projection": "6*sqrt(34)/115",
+        "unit_axial_vector_projection": "2*sqrt(36465)/1265"
+      },
+      {
+        "ell": 10,
+        "other": 12,
+        "m": 10,
+        "output_degree": 2,
+        "scalar_P_projection": "3*sqrt(11)/115",
+        "unit_axial_vector_projection": "sqrt(390)/230"
+      },
+      {
+        "ell": 10,
+        "other": 14,
+        "m": 0,
+        "output_degree": 4,
+        "scalar_P_projection": "1001*sqrt(609)/90045",
+        "unit_axial_vector_projection": "91*sqrt(319)/6003"
+      },
+      {
+        "ell": 10,
+        "other": 14,
+        "m": 5,
+        "output_degree": 4,
+        "scalar_P_projection": "14*sqrt(18734)/10005",
+        "unit_axial_vector_projection": "2*sqrt(4327554)/22011"
+      },
+      {
+        "ell": 10,
+        "other": 14,
+        "m": 10,
+        "output_degree": 4,
+        "scalar_P_projection": "7*sqrt(14674)/30015",
+        "unit_axial_vector_projection": "sqrt(28014)/6003"
+      }
+    ],
+    "scope": "One normalized axial-vector angular contraction. It does not exclude cancellation in the full Einstein source."
+  },
+  "preparation": {
+    "fixed_complement_constraint_jets": true,
+    "scope": "Algebraic chart identity; no right-inverse theorem for the stellar preparation is asserted."
+  },
+  "transport": {
+    "slow_angle_modulation_solves_transport": true,
+    "positivity_condition": "nonnegative occupation times (1+eta*cos(phase)), abs(eta)<=1",
+    "scope": "Conserved kinetic radiation candidate on fixed invariant tori; coherent Einstein-wave realization is open."
+  },
+  "orbits": {
+    "status": "floating_geodesic_frequency_screen",
+    "rows": [
+      {
+        "xi": 0.998,
+        "energy": 0.001160914265057676,
+        "action_per_L": 0.00022637101087004795,
+        "Omega_r": 0.00822770829099371,
+        "Omega_phi": 0.03407032944680383,
+        "ratio": 4.140925789031463,
+        "delta_2_minus_8": 0.0023189925656579846,
+        "delta_4_minus_17": -0.0035897231596777324,
+        "turning_points": [
+          15.623418375109814,
+          16.513184431848998
+        ],
+        "points": 3496,
+        "quadrature_change": 2.222472206270254e-12
+      },
+      {
+        "xi": 0.9981111111111111,
+        "energy": 0.0011609142882868344,
+        "action_per_L": 0.0002264125321842267,
+        "Omega_r": 0.008191616652655559,
+        "Omega_phi": 0.03407033761765924,
+        "ratio": 4.159171389766429,
+        "delta_2_minus_8": 0.002607742014074016,
+        "delta_4_minus_17": -0.0029761326245075215,
+        "turning_points": [
+          15.623402056655152,
+          16.513594862465503
+        ],
+        "points": 3496,
+        "quadrature_change": 2.471245430513136e-12
+      },
+      {
+        "xi": 0.9982222222222222,
+        "energy": 0.0011609143115159926,
+        "action_per_L": 0.00022645424147404785,
+        "Omega_r": 0.008153677277829563,
+        "Omega_phi": 0.034070346208406516,
+        "ratio": 4.178525228248394,
+        "delta_2_minus_8": 0.0029112741941765274,
+        "delta_4_minus_17": -0.002331128889476508,
+        "turning_points": [
+          15.62338573922558,
+          16.51401730234479
+        ],
+        "points": 3504,
+        "quadrature_change": 2.2187807147133753e-13
+      },
+      {
+        "xi": 0.9983333333333333,
+        "energy": 0.0011609143347451507,
+        "action_per_L": 0.00022649615052186447,
+        "Omega_r": 0.008113669126093959,
+        "Omega_phi": 0.03407035526926746,
+        "ratio": 4.1991304722663045,
+        "delta_2_minus_8": 0.003231357529783249,
+        "delta_4_minus_17": -0.0016509540665274602,
+        "turning_points": [
+          15.623369422820167,
+          16.51445289713542
+        ],
+        "points": 3504,
+        "quadrature_change": 1.2311818231580673e-12
+      },
+      {
+        "xi": 0.9984444444444445,
+        "energy": 0.001160914357974309,
+        "action_per_L": 0.00022653827268410466,
+        "Omega_r": 0.008071327605037006,
+        "Omega_phi": 0.03407036486035872,
+        "ratio": 4.221159953797033,
+        "delta_2_minus_8": 0.003570108880421391,
+        "delta_4_minus_17": -0.0009311098441942278,
+        "turning_points": [
+          15.623353107439959,
+          16.514902987045836
+        ],
+        "points": 3504,
+        "quadrature_change": 2.5983659668327164e-12
+      },
+      {
+        "xi": 0.9985555555555555,
+        "energy": 0.0011609143812034673,
+        "action_per_L": 0.00022658062323072705,
+        "Omega_r": 0.008026332128689756,
+        "Omega_phi": 0.034070375054518105,
+        "ratio": 4.244824972135792,
+        "delta_2_minus_8": 0.0039300930795181654,
+        "delta_4_minus_17": -0.00016614596965341955,
+        "turning_points": [
+          15.623336793084498,
+          16.515369156505727
+        ],
+        "points": 3504,
+        "quadrature_change": 9.164058401012198e-13
+      },
+      {
+        "xi": 0.9986666666666667,
+        "energy": 0.0011609144044326255,
+        "action_per_L": 0.00022662321978617257,
+        "Omega_r": 0.007978288830767115,
+        "Omega_phi": 0.03407038594123235,
+        "ratio": 4.270387631222982,
+        "delta_2_minus_8": 0.004314461236327782,
+        "delta_4_minus_17": 0.0006506336418884429,
+        "turning_points": [
+          15.623320479753046,
+          16.51585330137057
+        ],
+        "points": 3504,
+        "quadrature_change": 8.576139798321947e-12
+      },
+      {
+        "xi": 0.9987777777777778,
+        "energy": 0.0011609144276617837,
+        "action_per_L": 0.00022666608292395954,
+        "Omega_r": 0.007926705949570482,
+        "Omega_phi": 0.03407039763222894,
+        "ratio": 4.298178568624093,
+        "delta_2_minus_8": 0.004727147667894019,
+        "delta_4_minus_17": 0.0015275893862175538,
+        "turning_points": [
+          15.623304167445333,
+          16.516357722100715
+        ],
+        "points": 3504,
+        "quadrature_change": 3.3144320621403267e-12
+      },
+      {
+        "xi": 0.9988888888888889,
+        "energy": 0.0011609144508909419,
+        "action_per_L": 0.00022670923697176124,
+        "Omega_r": 0.007870957861038844,
+        "Omega_phi": 0.03407041026964757,
+        "ratio": 4.32862313217248,
+        "delta_2_minus_8": 0.005173157650984389,
+        "delta_4_minus_17": 0.002475357440929943,
+        "turning_points": [
+          15.62328785616254,
+          16.51688525591465
+        ],
+        "points": 3512,
+        "quadrature_change": 7.18677894973041e-12
+      },
+      {
+        "xi": 0.999,
+        "energy": 0.0011609144741201003,
+        "action_per_L": 0.00022675271114643277,
+        "Omega_r": 0.007810230568752201,
+        "Omega_phi": 0.03407042403842378,
+        "ratio": 4.362281463845059,
+        "delta_2_minus_8": 0.0056590035268299504,
+        "delta_4_minus_17": 0.0035077764849076876,
+        "turning_points": [
+          15.623271545902691,
+          16.517439470653795
+        ],
+        "points": 3512,
+        "quadrature_change": 4.552885846109689e-12
+      }
+    ],
+    "ratio_17_over_4_roots": [
+      {
+        "xi": 0.9985787739542061,
+        "energy": 0.0011609143860575619,
+        "action_per_L": 0.00022658950347547726,
+        "Omega_r": 0.00801655935780869,
+        "Omega_phi": 0.03407037726888204,
+        "ratio": 4.249999999774855,
+        "delta_2_minus_8": 0.00400827967529456,
+        "delta_4_minus_17": -7.219558284532468e-12,
+        "turning_points": [
+          15.623333384074673,
+          16.51546877060239
+        ],
+        "points": 2992
+      },
+      {
+        "xi": 0.9985787739611784,
+        "energy": 0.0011609143860575634,
+        "action_per_L": 0.00022658950347821333,
+        "Omega_r": 0.008016559356862043,
+        "Omega_phi": 0.034070377268882186,
+        "ratio": 4.25000000027674,
+        "delta_2_minus_8": 0.0040082796828680295,
+        "delta_4_minus_17": 8.874012635828876e-12,
+        "turning_points": [
+          15.623333384073455,
+          16.51546877062551
+        ],
+        "points": 3504
+      }
+    ],
+    "maximum_quadrature_change": 8.576139798321947e-12,
+    "action_derivative_relative_check": 5.596003367358549e-07,
+    "local_carrier_scale_to_keep_pair_in_band": 76754741.61214563,
+    "maximum_points_per_integral": 3512,
+    "orbit_evaluations": 41,
+    "maximum_points_including_gap_derivative": 3912,
+    "bvp_solves": 0,
+    "mode_eigenvalues_computed": 0,
+    "scope": "Represented-background geodesic frequencies, not interval bounds, discrete wave frequencies, or outgoing amplitudes."
+  },
+  "input_sha256": {
+    "research\\stable-light-rings\\data\\s08a06\\background.npz": "1f3926474829ec49ddddcbebab335ceccd8edd3c7f89b53e1487c60016936464",
+    "research\\stable-light-rings\\finite_width_axial.py": "c699a9736ddd67f45d448862d77cec97f77441e5884efeba3811f5828eeb5eb5",
+    "research\\stable-light-rings\\trapped_axial.py": "0146d21072e48046913d2d323a3334794024f984143242fef9de40e804985ad2",
+    "literature\\self-radiation\\sources\\1703.09069v3\\main.tex": "4a1d43a08262cfc65a3ac8d831440b082791935676da8c000e01f6c0913e2f36",
+    "literature\\self-radiation\\arXiv-1703.09069v3.tex.gz": "15eb3159d04a1d5b24ae0c437c41e70f80bcc65964f8b7716d0da3a0f05a416a"
+  },
+  "implementation_sha256": "af51a62e210590e7a665b08956488b300f33ae06f7c35d216c339411f2c50936",
+  "seconds": 0.4083175999985542
+}
